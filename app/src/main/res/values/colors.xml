@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+
+    <!-- BACKGROUND COLORS -->
+    <color name="gradientDarkBackgroundColor">#181949</color>
+    <color name="homeBackgroundColor">#303192</color>
+    <color name="topic1Backgroundcolor">#2196F3</color>
+    <color name="topic2Backgroundcolor">#03A9F4</color>
+    <color name="topic3Backgroundcolor">#00BCD4</color>
+    <color name="topic4Backgroundcolor">#009688</color>
+    <color name="topic5Backgroundcolor">#4CAF50</color>
+    <color name="topic6Backgroundcolor">#8BC34A</color>
+    <color name="topic7Backgroundcolor">#CDDC39</color>
+    <color name="topic8Backgroundcolor">#FFEB3B</color>
+    <color name="topic9Backgroundcolor">#FFC107</color>
+    <color name="topic10Backgroundcolor">#FF9800</color>
+    <color name="topic11Backgroundcolor">#FF5722</color>
+
+    <!-- TEXT COLOR -->
+    <color name="textColor">#FFFFFF</color>
+
+    <!-- BUTTON COLORS -->
+    <color name="buttonColor">#E62530</color>
+
+</resources>

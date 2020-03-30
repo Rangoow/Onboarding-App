@@ -1,0 +1,26 @@
+<resources>
+    <string name="app_name">ISEN Onboarding App</string>
+
+    <!-- TOPIC TITLE -->
+    <string name="topic_visit_title">VISIT</string>
+    <string name="topic_informations_title">INFORMATIONS</string>
+    <string name="topic_administration_title">ADMINISTRATION</string>
+    <string name="topic_network_title">NETWORK</string>
+    <string name="topic_places_title">PLACES</string>
+    <string name="topic_lunch_title">LUNCH</string>
+    <string name="topic_market_title">MARKET</string>
+    <string name="topic_entertainment_title">ENTERTAINMENT</string>
+    <string name="topic_toilets_title">TOILETS</string>
+    <string name="topic_feedback_title">FEEDBACK</string>
+
+    <!-- BUTTON TEXTS -->
+    <string name="student_button">STUDENT</string>
+    <string name="teacher_button">TEACHER</string>
+
+
+    <!-- INTRODUCTION TEXTS -->
+    <string name="home_text">Welcome to ISEN Lille !</string>
+
+
+
+</resources>
