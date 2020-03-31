@@ -25,4 +25,8 @@
     <!-- BUTTON COLORS -->
     <color name="buttonColor">#E62530</color>
 
+    <!-- INDICATOR COLORS -->
+    <color name="indicatorColor">#8E8E8E</color>
+    <color name="indicatorSelectedColor">#E62530</color>
+
 </resources>
