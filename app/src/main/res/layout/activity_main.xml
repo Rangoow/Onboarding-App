@@ -14,6 +14,15 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
 
+        <Button
+            android:id="@+id/button"
+            android:layout_width="115dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="200dp"
+            android:layout_marginTop="222dp"
+            android:background="@color/buttonColor"
+            android:text="test"
+            android:visibility="visible" />
     </androidx.viewpager.widget.ViewPager>
 
     <Button
@@ -41,6 +50,6 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toStartOf="@+id/button_next"
         app:layout_constraintHorizontal_bias="0.0"
-        app:layout_constraintStart_toStartOf="parent"/>
+        app:layout_constraintStart_toStartOf="parent" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

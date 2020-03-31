@@ -28,13 +28,15 @@ public class IntroActivity extends AppCompatActivity {
     int position = 0;
     private ValueAnimator valueAnimator;
 
+
+
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-
+        final Window window =this.getWindow();
         //make activity full screen
         requestWindowFeature(Window.FEATURE_NO_TITLE);
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
 
         setContentView(R.layout.activity_intro);
 
@@ -89,6 +91,8 @@ public class IntroActivity extends AppCompatActivity {
             }
         });
 
+        //Gradient color animatin
+
         valueAnimator = ValueAnimator.ofObject(new ArgbEvaluator(),
                 getResources().getColor(R.color.topic1Backgroundcolor),
                 getResources().getColor(R.color.topic2Backgroundcolor),
@@ -125,6 +129,7 @@ public class IntroActivity extends AppCompatActivity {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 screenPager.setBackgroundColor((Integer)animation.getAnimatedValue());
+                window.setStatusBarColor((Integer)animation.getAnimatedValue());
             }
         }));
 
