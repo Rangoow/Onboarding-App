@@ -4,39 +4,47 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/homeBackgroundColor">
+    android:background="@drawable/home_background">
 
     <androidx.constraintlayout.widget.Guideline
         android:id="@+id/guideline3"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:orientation="horizontal"
-        app:layout_constraintGuide_begin="300dp" />
+        app:layout_constraintGuide_begin="423dp" />
 
     <TextView
         android:id="@+id/textView"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:fontFamily="@font/comic_neue_bold"
-        android:gravity="center"
-        android:text="Welcome to ISEN Lille"
+        android:layout_marginTop="8dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="32dp"
+        android:fontFamily="@font/track_regular"
+        android:gravity="left"
+        android:lineSpacingExtra="24sp"
+        android:shadowColor="#000000"
+        android:text="Welcome \nTO \nISEN \nLILLE"
         android:textColor="@color/textColor"
-        android:textSize="36sp"
+        android:textSize="50sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toTopOf="@+id/guideline3"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="@+id/guideline3" />
+        app:layout_constraintTop_toBottomOf="@+id/imageView"
+        app:layout_constraintVertical_bias="0.548" />
 
     <Button
         android:id="@+id/button4"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="32dp"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="64dp"
         android:background="@drawable/rounded_button"
-        android:fontFamily="@font/comic_neue_bold"
+        android:fontFamily="@font/track_regular"
         android:text="Student"
         android:textColor="@color/textColor"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -44,13 +52,14 @@
 
     <Button
         android:id="@+id/button5"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="200dp"
+        android:layout_height="60dp"
         android:layout_marginTop="24dp"
         android:background="@drawable/rounded_button"
-        android:fontFamily="@font/comic_neue_bold"
+        android:fontFamily="@font/track_regular"
         android:text="@string/teacher_button"
         android:textColor="@color/textColor"
+        android:textSize="14sp"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -61,10 +70,11 @@
 
     <ImageView
         android:id="@+id/imageView"
-        android:layout_width="280dp"
-        android:layout_height="114dp"
-        app:layout_constraintBottom_toTopOf="@+id/textView"
+        android:layout_width="79dp"
+        android:layout_height="37dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/ic_logo"
-        tools:layout_editor_absoluteX="65dp" />
+        app:srcCompat="@drawable/ic_logo" />
 </androidx.constraintlayout.widget.ConstraintLayout>

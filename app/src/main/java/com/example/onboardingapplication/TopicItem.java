@@ -2,12 +2,12 @@ package com.example.onboardingapplication;
 
 import android.transition.Scene;
 
-public class ScreenItem {
+public class TopicItem {
 
     String Title, Description;
     int ScreenImg;
 
-     public ScreenItem(String title, String description, int screenImg){
+     public TopicItem(String title, String description, int screenImg){
          Title = title;
          Description = description;
          ScreenImg = screenImg;

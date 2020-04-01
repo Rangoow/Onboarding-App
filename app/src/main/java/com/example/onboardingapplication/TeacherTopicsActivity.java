@@ -3,15 +3,12 @@ package com.example.onboardingapplication;
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.os.Bundle;
-import android.text.Layout;
 import android.view.View;
 import android.view.Window;
-import android.view.WindowManager;
 import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.constraintlayout.widget.ConstraintLayout;
 import androidx.viewpager.widget.ViewPager;
 
 import com.google.android.material.tabs.TabLayout;
@@ -19,7 +16,7 @@ import com.google.android.material.tabs.TabLayout;
 import java.util.ArrayList;
 import java.util.List;
 
-public class IntroActivity extends AppCompatActivity {
+public class TeacherTopicsActivity extends AppCompatActivity {
 
     private ViewPager screenPager;
     SlidePageAdapter slidePageAdapter;
@@ -49,17 +46,17 @@ public class IntroActivity extends AppCompatActivity {
 
         //fill list screen
 
-        final List<ScreenItem> list = new ArrayList<>();
-        list.add(new ScreenItem(getString(R.string.topic_visit_title),getString(R.string.visit_text),R.drawable.ic_localization));
-        list.add(new ScreenItem(getString(R.string.topic_information_title),"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",R.drawable.ic_informations));
-        list.add(new ScreenItem(getString(R.string.topic_administration_title),"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",R.drawable.ic_administration));
-        list.add(new ScreenItem(getString(R.string.topic_network_title),getString(R.string.network_text),R.drawable.ic_network));
-        list.add(new ScreenItem(getString(R.string.topic_places_title),getString(R.string.places_text),R.drawable.ic_localization));
-        list.add(new ScreenItem(getString(R.string.topic_lunch_title),getString(R.string.lunch_text),R.drawable.ic_lunch));
-        list.add(new ScreenItem(getString(R.string.topic_market_title),getString(R.string.market_text),R.drawable.ic_market));
-        list.add(new ScreenItem(getString(R.string.topic_entertainment_title),getString(R.string.entertainment_text),R.drawable.ic_entertainement));
-        list.add(new ScreenItem(getString(R.string.topic_toilets_title),getString(R.string.toilets_text),R.drawable.ic_toilet));
-        list.add(new ScreenItem(getString(R.string.topic_feedback_title),getString(R.string.feedback_text),R.drawable.ic_feedback));
+        final List<TopicItem> list = new ArrayList<>();
+        list.add(new TopicItem(getString(R.string.topic_visit_title),getString(R.string.visit_text),R.drawable.ic_localization));
+        list.add(new TopicItem(getString(R.string.topic_information_title),"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",R.drawable.ic_informations));
+        list.add(new TopicItem(getString(R.string.topic_administration_title),"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",R.drawable.ic_administration));
+        list.add(new TopicItem(getString(R.string.topic_network_title),getString(R.string.network_text),R.drawable.ic_network));
+        list.add(new TopicItem(getString(R.string.topic_places_title),getString(R.string.places_text),R.drawable.ic_localization));
+        list.add(new TopicItem(getString(R.string.topic_lunch_title),getString(R.string.lunch_text),R.drawable.ic_lunch));
+        list.add(new TopicItem(getString(R.string.topic_market_title),getString(R.string.market_text),R.drawable.ic_market));
+        list.add(new TopicItem(getString(R.string.topic_entertainment_title),getString(R.string.entertainment_text),R.drawable.ic_entertainement));
+        list.add(new TopicItem(getString(R.string.topic_toilets_title),getString(R.string.toilets_text),R.drawable.ic_toilet));
+        list.add(new TopicItem(getString(R.string.topic_feedback_title),getString(R.string.feedback_text),R.drawable.ic_feedback));
 
 
         //setup viewpager

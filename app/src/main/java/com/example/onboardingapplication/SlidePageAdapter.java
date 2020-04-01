@@ -10,16 +10,14 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
-import org.w3c.dom.Text;
-
 import java.util.List;
 
 public class SlidePageAdapter extends PagerAdapter {
 
     Context context;
-    List<ScreenItem> ListScreen;
+    List<TopicItem> ListScreen;
 
-    public SlidePageAdapter(Context context, List<ScreenItem> listScreen) {
+    public SlidePageAdapter(Context context, List<TopicItem> listScreen) {
         this.context = context;
         ListScreen = listScreen;
     }
