@@ -3,15 +3,25 @@
 
     <!-- TOPIC TITLE -->
     <string name="topic_visit_title">VISIT</string>
+    <string name="visit_text">A l\’ISEN, nous savons qu\’il est difficile de se repérer lorsque nous venons d\’arriver. Ici, tu trouveras ainsi une map simplifiée pour trouver facilement une salle. </string>
     <string name="topic_information_title">INFORMATIONS</string>
     <string name="topic_administration_title">ADMINISTRATION</string>
+    <string name="administration_text_student">Ici, tu trouveras tous les lieux dans l\'ISEN en lien avec l\'administration ainsi que le bureau des principaux responsables.</string>
+    <string name="administration_text_teacher">Ici, tu trouveras tous les bureaux de l\’administration ainsi que les différents services qui vous seront utiles</string>
     <string name="topic_network_title">NETWORK</string>
+    <string name="network_text">Ici, tu trouveras tous les sites importants, et utilisés par les étudiants et les professeurs</string>
     <string name="topic_places_title">PLACES</string>
+    <string name="places_text">Ici, tu trouveras tous les endroits qui pourront t\'être utile au cours de ton aventure à l\'ISEN.</string>
     <string name="topic_lunch_title">LUNCH</string>
+    <string name="lunch_text">Tu ne sais pas où manger ? Pas de problème, nous avons ici regroupé les endroits préférés des ISENs pour manger.</string>
     <string name="topic_market_title">MARKET</string>
+    <string name="market_text">Ici, tu trouveras tous les magasins aux alentours de l\’ISEN, pratique pour savoir où faire ses courses !</string>
     <string name="topic_entertainment_title">ENTERTAINMENT</string>
+    <string name="entertainment_text">Ici, tu trouveras tous les endroits importants liés à la vie étudiante à l\’ISEN.</string>
     <string name="topic_toilets_title">TOILETS</string>
+    <string name="toilets_text">Besoin de passer au petit coin ? Nous avons repertorié  toutes les options qui s\'offrent à vous.</string>
     <string name="topic_feedback_title">FEEDBACK</string>
+    <string name="feedback_text">As-tu des suggestions pour notre application？ Des idées pour aider les nouveaux arrivants？ Note-les et laisse tes informations dans le but de communiquer avec nous.</string>
 
     <!-- BUTTON TEXTS -->
     <string name="student_button">STUDENT</string>
