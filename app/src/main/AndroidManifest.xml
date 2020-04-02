@@ -9,8 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-
-        <activity android:name=".SplashScreenActivity" android:screenOrientation="portrait">
+        
         <activity android:name=".HomeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -19,8 +18,6 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".HomeActivity" android:screenOrientation="portrait">
-        </activity>
 
         <activity android:name=".StudentTopicsActivity" android:screenOrientation="portrait">
             <intent-filter>
