@@ -1,6 +1,9 @@
 <resources>
     <string name="app_name">ISEN Onboarding App</string>
 
+    <!-- SPLASH SCREEN -->
+    <string name="splash_screen">Onboarding App ISEN</string>
+
     <!-- TOPIC TITLE -->
     <string name="topic_visit_title">VISIT</string>
     <string name="visit_text">A l\’ISEN, nous savons qu\’il est difficile de se repérer lorsque nous venons d\’arriver. Ici, tu trouveras ainsi une map simplifiée pour trouver facilement une salle. </string>
