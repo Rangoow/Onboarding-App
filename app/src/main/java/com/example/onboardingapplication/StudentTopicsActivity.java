@@ -2,6 +2,7 @@ package com.example.onboardingapplication;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -130,5 +131,13 @@ public class StudentTopicsActivity extends AppCompatActivity {
             }
         }));
 
+        Button startActivityHome = (Button) findViewById(R.id.buttonHome);
+        startActivityHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }

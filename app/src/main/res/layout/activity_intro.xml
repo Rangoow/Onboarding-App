@@ -49,7 +49,7 @@
     </com.google.android.material.tabs.TabLayout>
 
     <Button
-        android:id="@+id/button2"
+        android:id="@+id/buttonHome"
         android:layout_width="49dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
