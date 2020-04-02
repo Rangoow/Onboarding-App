@@ -48,8 +48,8 @@ public class StudentTopicsActivity extends AppCompatActivity {
 
         final List<TopicItem> list = new ArrayList<>();
         list.add(new TopicItem(getString(R.string.topic_visit_title),getString(R.string.visit_text),R.drawable.ic_localization));
-        list.add(new TopicItem(getString(R.string.topic_information_title),"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",R.drawable.ic_informations));
-        list.add(new TopicItem(getString(R.string.topic_administration_title),"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",R.drawable.ic_administration));
+        list.add(new TopicItem(getString(R.string.topic_information_title),getString(R.string.information_text),R.drawable.ic_informations));
+        list.add(new TopicItem(getString(R.string.topic_administration_title),getString(R.string.administration_text_student),R.drawable.ic_administration));
         list.add(new TopicItem(getString(R.string.topic_network_title),getString(R.string.network_text),R.drawable.ic_network));
         list.add(new TopicItem(getString(R.string.topic_places_title),getString(R.string.places_text),R.drawable.ic_localization));
         list.add(new TopicItem(getString(R.string.topic_lunch_title),getString(R.string.lunch_text),R.drawable.ic_lunch));

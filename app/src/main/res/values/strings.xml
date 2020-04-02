@@ -5,6 +5,7 @@
     <string name="topic_visit_title">VISIT</string>
     <string name="visit_text">A l\’ISEN, nous savons qu\’il est difficile de se repérer lorsque nous venons d\’arriver. Ici, tu trouveras ainsi une map simplifiée pour trouver facilement une salle. </string>
     <string name="topic_information_title">INFORMATIONS</string>
+    <string name="information_text">Ici tu trouveras quelques informations et chiffres importants pour mieux connaitre l\'ISEN.</string>
     <string name="topic_administration_title">ADMINISTRATION</string>
     <string name="administration_text_student">Ici, tu trouveras tous les lieux dans l\'ISEN en lien avec l\'administration ainsi que le bureau des principaux responsables.</string>
     <string name="administration_text_teacher">Ici, tu trouveras tous les bureaux de l\’administration ainsi que les différents services qui vous seront utiles</string>
