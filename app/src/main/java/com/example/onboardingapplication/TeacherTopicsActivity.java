@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
+import android.view.WindowManager;
 import android.widget.Button;
 
 import androidx.annotation.Nullable;
@@ -16,6 +17,7 @@ import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
 import java.util.List;
+import java.util.Objects;
 
 public class TeacherTopicsActivity extends AppCompatActivity {
 
@@ -31,18 +33,20 @@ public class TeacherTopicsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        final Window window =this.getWindow();
+        //final Window window =this.getWindow();
         //make activity full screen
-        requestWindowFeature(Window.FEATURE_NO_TITLE);
-        //getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN,WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        Objects.requireNonNull(getSupportActionBar()).hide();
+        Window w = getWindow();
+        w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
 
-        setContentView(R.layout.activity_intro);
+        //set view
+        setContentView(R.layout.activity_topics);
 
         //hide action bar
-        getSupportActionBar().hide();
+
         //ini views
-        btnNext = findViewById(R.id.button_next);
-        pageIndicator = findViewById(R.id.page_Indicator);
+        btnNext = findViewById(R.id.topicNextBtn);
+        pageIndicator = findViewById(R.id.topicPageIndicator);
 
 
         //fill list screen
@@ -50,17 +54,16 @@ public class TeacherTopicsActivity extends AppCompatActivity {
         final List<TopicItem> list = new ArrayList<>();
         list.add(new TopicItem(getString(R.string.topic_visit_title),getString(R.string.visit_text),R.drawable.ic_localization));
         list.add(new TopicItem(getString(R.string.topic_information_title),getString(R.string.information_text),R.drawable.ic_informations));
-        list.add(new TopicItem(getString(R.string.topic_administration_title),getString(R.string.administration_text_teacher),R.drawable.ic_administration));
+        list.add(new TopicItem(getString(R.string.topic_administration_title),getString(R.string.administration_text_student),R.drawable.ic_administration));
         list.add(new TopicItem(getString(R.string.topic_network_title),getString(R.string.network_text),R.drawable.ic_network));
         list.add(new TopicItem(getString(R.string.topic_places_title),getString(R.string.places_text),R.drawable.ic_localization));
         list.add(new TopicItem(getString(R.string.topic_lunch_title),getString(R.string.lunch_text),R.drawable.ic_lunch));
-        list.add(new TopicItem(getString(R.string.topic_entertainment_title),getString(R.string.entertainment_text),R.drawable.ic_entertainement));
         list.add(new TopicItem(getString(R.string.topic_toilets_title),getString(R.string.toilets_text),R.drawable.ic_toilet));
         list.add(new TopicItem(getString(R.string.topic_feedback_title),getString(R.string.feedback_text),R.drawable.ic_feedback));
 
 
         //setup viewpager
-        screenPager = findViewById(R.id.screen_viewpager);
+        screenPager = findViewById(R.id.topicViewPager);
         slidePageAdapter = new SlidePageAdapter(this,list);
         screenPager.setAdapter(slidePageAdapter);
 
@@ -80,7 +83,7 @@ public class TeacherTopicsActivity extends AppCompatActivity {
                     screenPager.setCurrentItem(position);
                 }
 
-                if (position == list.size()){ //when reach last screen
+                else if (position == list.size()){ //when reach last screen
                     //nothing for the moment
                     //IDEA
                     //But can hide page indicator and next button to display a Start Visit button and start the visit
@@ -97,18 +100,16 @@ public class TeacherTopicsActivity extends AppCompatActivity {
                 getResources().getColor(R.color.topic4Backgroundcolor),
                 getResources().getColor(R.color.topic5Backgroundcolor),
                 getResources().getColor(R.color.topic6Backgroundcolor),
-                getResources().getColor(R.color.topic7Backgroundcolor),
-                getResources().getColor(R.color.topic8Backgroundcolor),
                 getResources().getColor(R.color.topic9Backgroundcolor),
                 getResources().getColor(R.color.topic10Backgroundcolor));
 
 
-        valueAnimator.setDuration((10-1)*10000000000l);
+        valueAnimator.setDuration((8-1)* 10000000000L);
 
         screenPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
             @Override
             public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
-                valueAnimator.setCurrentPlayTime((long)((positionOffset + position)*10000000000l));
+                valueAnimator.setCurrentPlayTime((long)((positionOffset + position)*10000000000L));
             }
 
             @Override
@@ -126,11 +127,10 @@ public class TeacherTopicsActivity extends AppCompatActivity {
             @Override
             public void onAnimationUpdate(ValueAnimator animation) {
                 screenPager.setBackgroundColor((Integer)animation.getAnimatedValue());
-                window.setStatusBarColor((Integer)animation.getAnimatedValue());
             }
         }));
 
-        Button startActivityHome = (Button) findViewById(R.id.buttonHome);
+        Button startActivityHome = findViewById(R.id.topicHomebtn);
         startActivityHome.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -138,6 +138,5 @@ public class TeacherTopicsActivity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
     }
 }
