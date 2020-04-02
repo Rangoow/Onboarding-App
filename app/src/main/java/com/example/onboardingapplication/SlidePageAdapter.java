@@ -26,10 +26,10 @@ public class SlidePageAdapter extends PagerAdapter {
     @Override
     public Object instantiateItem(@NonNull ViewGroup container, int position) {
         LayoutInflater inflater =(LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
-        View layoutScreen = inflater.inflate(R.layout.layout_screen,null);
-        ImageView imgSlide = layoutScreen.findViewById(R.id.topic_img);
-        TextView topicTitle = layoutScreen.findViewById(R.id.topic_title);
-        TextView topicDesc = layoutScreen.findViewById(R.id.topic_description);
+        View layoutScreen = inflater.inflate(R.layout.item_topic,null);
+        ImageView imgSlide = layoutScreen.findViewById(R.id.topicImg);
+        TextView topicTitle = layoutScreen.findViewById(R.id.topicTitleTxt);
+        TextView topicDesc = layoutScreen.findViewById(R.id.topicDescriptionTxt);
 
         topicTitle.setText(ListScreen.get(position).getTitle());
         topicDesc.setText(ListScreen.get(position).getDescription());

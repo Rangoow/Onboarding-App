@@ -6,10 +6,10 @@
     android:layout_height="match_parent">
 
     <androidx.viewpager.widget.ViewPager
-        android:id="@+id/screen_viewpager"
+        android:id="@+id/topicViewPager"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        app:layout_constraintBottom_toTopOf="@+id/page_Indicator"
+        app:layout_constraintBottom_toTopOf="@+id/topicPageIndicator"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
@@ -18,29 +18,30 @@
 
     <Button
 
-        android:id="@+id/button_next"
+        android:id="@+id/topicNextBtn"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginEnd="16dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="40dp"
         android:background="@null"
         android:drawableEnd="@drawable/ic_arrow_forward_black_24dp"
         android:drawableTint="@color/textColor"
+        android:fontFamily="@font/track_regular"
         android:text="NEXT"
         android:textColor="@color/textColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent" />
 
     <com.google.android.material.tabs.TabLayout
-        android:id="@+id/page_Indicator"
+        android:id="@+id/topicPageIndicator"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginStart="8dp"
         android:layout_marginEnd="8dp"
-        android:layout_marginBottom="16dp"
+        android:layout_marginBottom="40dp"
         android:background="@null"
         app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toStartOf="@+id/button_next"
+        app:layout_constraintEnd_toStartOf="@+id/topicNextBtn"
         app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:tabBackground="@drawable/indicator_selector"
@@ -49,11 +50,11 @@
     </com.google.android.material.tabs.TabLayout>
 
     <Button
-        android:id="@+id/buttonHome"
+        android:id="@+id/topicHomebtn"
         android:layout_width="49dp"
         android:layout_height="45dp"
         android:layout_marginStart="16dp"
-        android:layout_marginTop="8dp"
+        android:layout_marginTop="24dp"
         android:background="@null"
         android:drawableStart="@drawable/ic_home_black_36dp"
         android:textColor="@color/textColor"
