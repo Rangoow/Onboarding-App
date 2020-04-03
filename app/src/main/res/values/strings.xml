@@ -53,6 +53,19 @@
         As-tu des suggestions pour notre application？ Des idées pour aider les nouveaux arrivants？
         Note-les et laisse tes informations dans le but de communiquer avec nous.</string>
 
+    <!-- FEEDBACK TOPIC -->
+    <string name="feedback_field_1_text">Name :</string>
+    <string name="feedback_field_2_text">Last Name :</string>
+    <string name="feedback_field_3_text">Situation :</string>
+    <string name="feedback_field_4_text">Comment :</string>
+    <string name="feedback_field_5_text">E-mail :</string>
+
+    <string name="feedback_field_1_hint">Enter your name</string>
+    <string name="feedback_field_2_hint">Enter your last name</string>
+    <string name="feedback_field_3_btnRadio_text_1">Student</string>
+    <string name="feedback_field_3_btnRadio_text_2">Teacher</string>
+    <string name="feedback_field_4_hint">Enter your comment</string>
+    <string name="feedback_field_5_hint">Enter your e-mail</string>
 
 
 </resources>
