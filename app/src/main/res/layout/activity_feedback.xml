@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout
-    xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+<androidx.constraintlayout.widget.ConstraintLayout
+    android:layout_width="match_parent"
     android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/topicHomebtn"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginEnd="8dp"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_home_black_36dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/feedbackTitle"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <EditText
         android:id="@+id/editText19"
@@ -14,8 +30,8 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:fontFamily="@font/blogger_sans"
-        android:hint="@string/feedback_field_4_hint"
-        android:inputType="textPersonName"
+        android:hint="@string/feedback_field_5_hint"
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="@+id/textView21"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView21"
@@ -28,7 +44,9 @@
         android:layout_marginTop="60dp"
         android:fontFamily="@font/track_regular"
         android:text="@string/topic_feedback_title"
+        android:textColor="@color/textColor"
         android:textSize="36sp"
+        android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
@@ -41,6 +59,7 @@
         android:layout_marginTop="80dp"
         android:fontFamily="@font/track_regular"
         android:text="@string/feedback_field_1_text"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/feedbackTitle" />
 
@@ -67,6 +86,7 @@
         android:layout_marginTop="60dp"
         android:fontFamily="@font/track_regular"
         android:text="@string/feedback_field_2_text"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView18" />
 
@@ -78,6 +98,7 @@
         android:layout_marginTop="60dp"
         android:fontFamily="@font/track_regular"
         android:text="@string/feedback_field_3_text"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 
@@ -88,7 +109,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
         android:fontFamily="@font/track_regular"
-        android:text="@string/feedback_field_4_text"
+        android:text="@string/feedback_field_5_text"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView20" />
 
@@ -99,7 +121,8 @@
         android:layout_marginStart="16dp"
         android:layout_marginTop="60dp"
         android:fontFamily="@font/track_regular"
-        android:text="@string/feedback_field_5_text"
+        android:text="@string/feedback_field_4_text"
+        android:textColor="@color/textColor"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView21" />
 
@@ -112,7 +135,8 @@
         android:ems="10"
         android:fontFamily="@font/blogger_sans"
         android:hint="@string/feedback_field_2_hint"
-        android:inputType="textPersonName"
+        android:gravity="start|top"
+        android:inputType="textMultiLine"
         app:layout_constraintBottom_toBottomOf="@+id/textView19"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView19"
@@ -126,8 +150,8 @@
         android:layout_marginEnd="16dp"
         android:ems="10"
         android:fontFamily="@font/blogger_sans"
-        android:hint="@string/feedback_field_5_hint"
-        android:inputType="textPersonName"
+        android:hint="@string/feedback_field_4_hint"
+        android:inputType="textEmailAddress"
         app:layout_constraintBottom_toBottomOf="@+id/textView22"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toEndOf="@+id/textView22"
@@ -148,13 +172,17 @@
             android:id="@+id/radioButton4"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback_field_3_btnRadio_text_1" />
+            android:text="@string/feedback_field_3_btnRadio_text_1"
+            android:textColor="@color/textColor" />
 
         <RadioButton
             android:id="@+id/radioButton3"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/feedback_field_3_btnRadio_text_2" />
+            android:text="@string/feedback_field_3_btnRadio_text_2"
+            android:textColor="@color/textColor" />
+
     </RadioGroup>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
+</ScrollView>

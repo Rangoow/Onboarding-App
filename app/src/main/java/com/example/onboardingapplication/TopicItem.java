@@ -1,45 +1,44 @@
 package com.example.onboardingapplication;
 
-import android.transition.Scene;
 
 public class TopicItem {
 
-    String Title, Description;
-    int ScreenImg;
+    String TopicTitle, TopicDescription;
+    int TopicScreenImg;
+
+
 
      public TopicItem(String title, String description, int screenImg){
-         Title = title;
-         Description = description;
-         ScreenImg = screenImg;
+         this.TopicTitle = title;
+         this.TopicDescription = description;
+         this.TopicScreenImg = screenImg;
+
+
      }
 
-    public String getTitle() {
-        return Title;
+    public String getTopicTitle() {
+        return TopicTitle;
     }
 
-    public void setTitle(String title) {
-        Title = title;
+    public void setTopicTitle(String title) {
+        this.TopicTitle = title;
     }
 
-    public String getDescription() {
-        return Description;
+    public String getTopicDescription() {
+        return TopicDescription;
     }
 
-    public void setDescription(String description) {
-        Description = description;
+    public void setTopicDescription(String description) {
+        this.TopicDescription = description;
     }
 
-    public int getScreenImg() {
-        return ScreenImg;
+    public int getTopicScreenImg() {
+        return TopicScreenImg;
     }
 
-    public void setScreenImg(int screenImg) {
-        ScreenImg = screenImg;
+    public void setTopicScreenImg(int screenImg) {
+        this.TopicScreenImg = screenImg;
     }
-
-
-
-
 
 
 }

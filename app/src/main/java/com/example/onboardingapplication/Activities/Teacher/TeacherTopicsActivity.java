@@ -1,4 +1,4 @@
-package com.example.onboardingapplication;
+package com.example.onboardingapplication.Activities.Teacher;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
@@ -13,6 +13,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.onboardingapplication.Activities.Both.HomeActivity;
+import com.example.onboardingapplication.Adapters.SlidePagerTeacherAdapter;
+import com.example.onboardingapplication.R;
+import com.example.onboardingapplication.TopicItem;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -22,7 +26,7 @@ import java.util.Objects;
 public class TeacherTopicsActivity extends AppCompatActivity {
 
     private ViewPager screenPager;
-    SlidePageAdapter slidePageAdapter;
+    SlidePagerTeacherAdapter slidePageAdapter;
     TabLayout pageIndicator;
     Button btnNext;
     int position = 0;
@@ -33,7 +37,7 @@ public class TeacherTopicsActivity extends AppCompatActivity {
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        //final Window window =this.getWindow();
+
         //make activity full screen
         Objects.requireNonNull(getSupportActionBar()).hide();
         Window w = getWindow();
@@ -64,7 +68,7 @@ public class TeacherTopicsActivity extends AppCompatActivity {
 
         //setup viewpager
         screenPager = findViewById(R.id.topicViewPager);
-        slidePageAdapter = new SlidePageAdapter(this,list);
+        slidePageAdapter = new SlidePagerTeacherAdapter(this,list);
         screenPager.setAdapter(slidePageAdapter);
 
 
