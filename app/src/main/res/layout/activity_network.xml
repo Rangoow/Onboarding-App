@@ -18,6 +18,19 @@
         app:layout_constraintVertical_bias="0.462"
         app:srcCompat="@drawable/ic_network" />
 
+    <Button
+        android:id="@+id/topicHomebtn"
+        android:layout_width="49dp"
+        android:layout_height="45dp"
+        android:layout_marginTop="20dp"
+        android:background="@null"
+        android:drawableStart="@drawable/ic_home_black_36dp"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toStartOf="@+id/textView"
+        app:layout_constraintHorizontal_bias="0.225"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
     <ExpandableListView
         android:id="@+id/listview_network"
         android:layout_width="412dp"

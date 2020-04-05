@@ -8,7 +8,9 @@ import javax.security.auth.PrivateCredentialPermission;
 
 import android.annotation.SuppressLint;
 import android.app.Activity;
+import android.content.Intent;
 import android.graphics.Color;
+import android.graphics.Typeface;
 import android.os.Bundle;
 import android.view.Gravity;
 import android.view.View;
@@ -16,6 +18,7 @@ import android.view.ViewGroup;
 import android.view.Window;
 import android.widget.AbsListView;
 import android.widget.BaseExpandableListAdapter;
+import android.widget.Button;
 import android.widget.ExpandableListView;
 import android.widget.TextView;
 
@@ -42,6 +45,14 @@ public class NetWorkActivity  extends AppCompatActivity {
 
         initdate();
         expandableListView_one.setAdapter(new ExpandableListViewaAdapter(NetWorkActivity.this));
+        Button startActivityHome = findViewById(R.id.topicHomebtn);
+        startActivityHome.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intent);
+            }
+        });
 
 
     }
@@ -131,8 +142,9 @@ public class NetWorkActivity  extends AppCompatActivity {
             textView.setGravity(Gravity.CENTER_VERTICAL |Gravity.LEFT);
 
             textView.setPadding(100, 100, 100, 100);
-            textView.setTextSize(20);
-            textView.setTextColor(Color.BLACK);
+            textView.setTextSize(18);
+            textView.setTypeface(Typeface.DEFAULT_BOLD);
+            textView.setTextColor(Color.WHITE);
             textView.setText(string);
             return textView;
         }
@@ -149,6 +161,8 @@ public class NetWorkActivity  extends AppCompatActivity {
 
             textView.setPadding(150, 50, 50, 50);
             textView.setTextSize(16);
+//            textView.setTextColor(Color.BLACK);
+            textView.setTypeface(Typeface.DEFAULT_BOLD);
 //            textView.setTextColor(R.color.textColor);
             textView.setText(string);
             return textView;
