@@ -62,6 +62,7 @@ public class TeacherTopicsActivity extends AppCompatActivity {
         list.add(new TopicItem(getString(R.string.topic_network_title),getString(R.string.network_text),R.drawable.ic_network));
         list.add(new TopicItem(getString(R.string.topic_places_title),getString(R.string.places_text),R.drawable.ic_localization));
         list.add(new TopicItem(getString(R.string.topic_lunch_title),getString(R.string.lunch_text),R.drawable.ic_lunch));
+        list.add(new TopicItem(getString(R.string.topic_market_title),getString(R.string.market_text),R.drawable.ic_market));
         list.add(new TopicItem(getString(R.string.topic_toilets_title),getString(R.string.toilets_text),R.drawable.ic_toilet));
         list.add(new TopicItem(getString(R.string.topic_feedback_title),getString(R.string.feedback_text),R.drawable.ic_feedback));
 
@@ -104,6 +105,7 @@ public class TeacherTopicsActivity extends AppCompatActivity {
                 getResources().getColor(R.color.topic4Backgroundcolor),
                 getResources().getColor(R.color.topic5Backgroundcolor),
                 getResources().getColor(R.color.topic6Backgroundcolor),
+                getResources().getColor(R.color.topic8Backgroundcolor),
                 getResources().getColor(R.color.topic9Backgroundcolor),
                 getResources().getColor(R.color.topic10Backgroundcolor));
 
