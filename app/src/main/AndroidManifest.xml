@@ -10,13 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
 
-        <activity android:name=".SplashScreenActivity" android:screenOrientation="portrait">
+        <activity android:name=".Activities.Both.SplashScreenActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        
+        <activity android:name=".Activities.Both.HomeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Design.NoActionBar">
 
         <activity android:name=".HomeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Design.NoActionBar">
             <intent-filter>
@@ -27,7 +29,7 @@
         </activity>
 
 
-        <activity android:name=".StudentTopicsActivity" android:screenOrientation="portrait">
+        <activity android:name=".Activities.Student.StudentTopicsActivity" android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,7 +37,14 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".TeacherTopicsActivity" android:screenOrientation="portrait">
+        <activity android:name=".Activities.Teacher.TeacherTopicsActivity" android:screenOrientation="portrait">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Both.FeedbackActivity" android:screenOrientation="portrait" android:windowSoftInputMode="adjustResize" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

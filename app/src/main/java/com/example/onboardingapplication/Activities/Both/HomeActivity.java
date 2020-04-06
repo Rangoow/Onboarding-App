@@ -1,4 +1,4 @@
-package com.example.onboardingapplication;
+package com.example.onboardingapplication.Activities.Both;
 
 import android.content.Intent;
 import android.os.Build;
@@ -10,6 +10,10 @@ import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
+
+import com.example.onboardingapplication.Activities.Student.StudentTopicsActivity;
+import com.example.onboardingapplication.Activities.Teacher.TeacherTopicsActivity;
+import com.example.onboardingapplication.R;
 
 public class HomeActivity extends AppCompatActivity {
 

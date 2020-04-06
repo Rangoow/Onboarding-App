@@ -1,8 +1,9 @@
-package com.example.onboardingapplication;
+package com.example.onboardingapplication.Activities.Student;
 
 import android.animation.ArgbEvaluator;
 import android.animation.ValueAnimator;
 import android.content.Intent;
+import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
@@ -13,6 +14,10 @@ import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
+import com.example.onboardingapplication.Activities.Both.HomeActivity;
+import com.example.onboardingapplication.R;
+import com.example.onboardingapplication.Adapters.SlidePagerStudentAdapter;
+import com.example.onboardingapplication.TopicItem;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -22,11 +27,12 @@ import java.util.Objects;
 public class StudentTopicsActivity extends AppCompatActivity {
 
     private ViewPager screenPager;
-    SlidePageAdapter slidePageAdapter;
+    SlidePagerStudentAdapter slidePageAdapter;
     TabLayout pageIndicator;
     Button btnNext;
     int position = 0;
     private ValueAnimator valueAnimator;
+
 
 
 
@@ -36,8 +42,10 @@ public class StudentTopicsActivity extends AppCompatActivity {
         //final Window window =this.getWindow();
         //make activity full screen
         Objects.requireNonNull(getSupportActionBar()).hide();
-        Window w = getWindow();
-        w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
+            Window w = getWindow();
+            w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
+        }
 
         //set view
         setContentView(R.layout.activity_topics);
@@ -66,7 +74,7 @@ public class StudentTopicsActivity extends AppCompatActivity {
 
         //setup viewpager
         screenPager = findViewById(R.id.topicViewPager);
-        slidePageAdapter = new SlidePageAdapter(this,list);
+        slidePageAdapter = new SlidePagerStudentAdapter(this,list);
         screenPager.setAdapter(slidePageAdapter);
 
 
