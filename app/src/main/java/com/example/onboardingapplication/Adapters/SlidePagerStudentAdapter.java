@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.onboardingapplication.Activities.Both.FeedbackActivity;
+import com.example.onboardingapplication.Activities.Student.ListLocalizationActivity;
 import com.example.onboardingapplication.R;
 import com.example.onboardingapplication.TopicItem;
 
@@ -61,6 +62,7 @@ public class SlidePagerStudentAdapter extends PagerAdapter {
                     case 5:
                         break;
                     case 6:
+                        context.startActivity(new Intent(context, ListLocalizationActivity.class));
                         break;
                     case 7:
                         break;

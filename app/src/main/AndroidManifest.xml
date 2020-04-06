@@ -19,15 +19,10 @@
         </activity>
         
         <activity android:name=".Activities.Both.HomeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Design.NoActionBar">
+    </activity>
 
-        <activity android:name=".HomeActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Design.NoActionBar">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <activity android:name=".Activities.Student.ListLocalizationActivity" android:screenOrientation="portrait" android:theme="@style/Theme.Design.NoActionBar">
         </activity>
-
 
         <activity android:name=".Activities.Student.StudentTopicsActivity" android:screenOrientation="portrait">
             <intent-filter>
