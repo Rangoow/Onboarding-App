@@ -103,4 +103,31 @@
     </string-array>
 
 
+    <!-- PLACES TOPIC -->
+
+    <string-array name="places_name_list">
+        <item>Co-Working / Adicode</item>
+        <item>FabLab</item>
+        <item>BDE</item>
+        <item>MI</item>
+        <item>Library</item>
+    </string-array>
+
+    <string-array name="places_loc_list">
+        <item>Atrium / A300 </item>
+        <item>Adicode / A300</item>
+        <item>Atrium / B300</item>
+        <item>Sous sol / 100</item>
+        <item>C800</item>
+    </string-array>
+
+    <string-array name="places_desc_list">
+        <item>Perfect space for group work.</item>
+        <item>This is the ISEN workshop, you can find soldering irons, 3D printers, or even electronic equipment.</item>
+        <item>If you are looking for information about associations, student life or events at ISEN you will find your answers here.</item>
+        <item>If you are hungry or want a drink in the morning or in the afternoon, you should go to MI! They also serve sandwiches for lunch!</item>
+        <item>If you want to work, read in peace or print documents this is the place to go.</item>
+    </string-array>
+
+
 </resources>
