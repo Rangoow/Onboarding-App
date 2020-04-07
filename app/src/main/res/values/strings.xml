@@ -67,5 +67,40 @@
     <string name="feedback_field_4_hint">Enter your comment</string>
     <string name="feedback_field_5_hint">Enter your e-mail</string>
 
+    <!-- TOILETS TOPIC -->
+
+    <string-array name="toilets_loc_list">
+        <item>B300</item>
+        <item>A400</item>
+        <item>A800</item>
+        <item>B800</item>
+        <item>A900</item>
+        <item>B600</item>
+        <item>C800</item>
+        <item>C900</item>
+    </string-array>
+
+    <string-array name="toilets_name_list">
+        <item>Atrium's Toilets</item>
+        <item>Prepa's Toilets</item>
+        <item>English Toilets</item>
+        <item>Vauban's Toilets</item>
+        <item>Far away Toilets</item>
+        <item>Unknown Toilets</item>
+        <item>Exam's Toilets</item>
+        <item>TP's Toilets</item>
+    </string-array>
+
+    <string-array name="toilets_desc_list">
+        <item>Passing toilets, useful if you pass by but very busy and often condemned.</item>
+        <item>Quiet toilets, always well maintained, THE best option.</item>
+        <item>Small toilet but it feels in harmony near English classes, weak point: you are often disturbed.</item>
+        <item>Relatively quiet toilets, with a view of Boulevard Vauban.</item>
+        <item>Discreet toilets, it is difficult to access but it is a haven of peace and calm.</item>
+        <item>Relatively narrow toilets, but they are simple and efficient.</item>
+        <item>Indispensable toilets during DS / partial, they are little frequented and always in good condition.</item>
+        <item>Clean toilets, but very busy during break times.</item>
+    </string-array>
+
 
 </resources>
