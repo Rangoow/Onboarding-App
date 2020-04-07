@@ -63,6 +63,8 @@ public class SlidePagerTeacherAdapter extends PagerAdapter {
                     case 6:
                         break;
                     case 7:
+                        break;
+                    case 8:
                         context.startActivity(new Intent(context, FeedbackActivity.class));
                         break;
                 }

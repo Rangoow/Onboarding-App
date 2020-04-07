@@ -4,6 +4,7 @@
     <color name="colorPrimaryDark">#3700B3</color>
     <color name="colorAccent">#03DAC5</color>
     <color name="transparent">#00000000</color>
+
     <!-- BACKGROUND COLORS -->
     <color name="gradientDarkBackgroundColor">#181949</color>
     <color name="homeBackgroundColor">#303192</color>
@@ -28,5 +29,8 @@
     <!-- INDICATOR COLORS -->
     <color name="indicatorColor">#8E8E8E</color>
     <color name="indicatorSelectedColor">#E62530</color>
+
+    <!-- ITEM LIST BACKGROUND COLOR -->
+    <color name="toilet_item_background">#81D4FA</color>
 
 </resources>
