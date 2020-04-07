@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.onboardingapplication.Activities.Both.FeedbackActivity;
+import com.example.onboardingapplication.Activities.Both.ToiletsActivity;
 import com.example.onboardingapplication.R;
 import com.example.onboardingapplication.TopicItem;
 
@@ -65,6 +66,7 @@ public class SlidePagerStudentAdapter extends PagerAdapter {
                     case 7:
                         break;
                     case 8:
+                        context.startActivity(new Intent(context, ToiletsActivity.class));
                         break;
                     case 9:
                         context.startActivity(new Intent(context, FeedbackActivity.class));

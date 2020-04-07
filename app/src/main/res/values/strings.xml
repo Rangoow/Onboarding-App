@@ -81,14 +81,14 @@
     </string-array>
 
     <string-array name="toilets_name_list">
-        <item>Atrium's Toilets</item>
-        <item>Prepa's Toilets</item>
+        <item>Atrium\'s Toilets</item>
+        <item>Prepa\'s Toilets</item>
         <item>English Toilets</item>
-        <item>Vauban's Toilets</item>
+        <item>Vauban\'s Toilets</item>
         <item>Far away Toilets</item>
         <item>Unknown Toilets</item>
-        <item>Exam's Toilets</item>
-        <item>TP's Toilets</item>
+        <item>Exam\'s Toilets</item>
+        <item>TP\'s Toilets</item>
     </string-array>
 
     <string-array name="toilets_desc_list">
