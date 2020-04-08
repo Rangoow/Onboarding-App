@@ -1,14 +1,14 @@
 package com.example.onboardingapplication;
 
 
-public class TopicItem {
+public class TopicPagerItem {
 
     String TopicTitle, TopicDescription;
     int TopicScreenImg;
 
 
 
-     public TopicItem(String title, String description, int screenImg){
+     public TopicPagerItem(String title, String description, int screenImg){
          this.TopicTitle = title;
          this.TopicDescription = description;
          this.TopicScreenImg = screenImg;

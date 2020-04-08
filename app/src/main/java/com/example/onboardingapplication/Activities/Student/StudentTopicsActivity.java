@@ -17,7 +17,7 @@ import androidx.viewpager.widget.ViewPager;
 import com.example.onboardingapplication.Activities.Both.HomeActivity;
 import com.example.onboardingapplication.R;
 import com.example.onboardingapplication.Adapters.SlidePagerStudentAdapter;
-import com.example.onboardingapplication.TopicItem;
+import com.example.onboardingapplication.TopicPagerItem;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.ArrayList;
@@ -59,17 +59,17 @@ public class StudentTopicsActivity extends AppCompatActivity {
 
         //fill list screen
 
-        final List<TopicItem> list = new ArrayList<>();
-        list.add(new TopicItem(getString(R.string.topic_visit_title),getString(R.string.visit_text),R.drawable.ic_localization));
-        list.add(new TopicItem(getString(R.string.topic_information_title),getString(R.string.information_text),R.drawable.ic_informations));
-        list.add(new TopicItem(getString(R.string.topic_administration_title),getString(R.string.administration_text_student),R.drawable.ic_administration));
-        list.add(new TopicItem(getString(R.string.topic_network_title),getString(R.string.network_text),R.drawable.ic_network));
-        list.add(new TopicItem(getString(R.string.topic_places_title),getString(R.string.places_text),R.drawable.ic_localization));
-        list.add(new TopicItem(getString(R.string.topic_lunch_title),getString(R.string.lunch_text),R.drawable.ic_lunch));
-        list.add(new TopicItem(getString(R.string.topic_market_title),getString(R.string.market_text),R.drawable.ic_market));
-        list.add(new TopicItem(getString(R.string.topic_entertainment_title),getString(R.string.entertainment_text),R.drawable.ic_entertainement));
-        list.add(new TopicItem(getString(R.string.topic_toilets_title),getString(R.string.toilets_text),R.drawable.ic_toilet));
-        list.add(new TopicItem(getString(R.string.topic_feedback_title),getString(R.string.feedback_text),R.drawable.ic_feedback));
+        final List<TopicPagerItem> list = new ArrayList<>();
+        list.add(new TopicPagerItem(getString(R.string.topic_visit_title),getString(R.string.visit_text),R.drawable.ic_localization));
+        list.add(new TopicPagerItem(getString(R.string.topic_information_title),getString(R.string.information_text),R.drawable.ic_informations));
+        list.add(new TopicPagerItem(getString(R.string.topic_administration_title),getString(R.string.administration_text_student),R.drawable.ic_administration));
+        list.add(new TopicPagerItem(getString(R.string.topic_network_title),getString(R.string.network_text),R.drawable.ic_network));
+        list.add(new TopicPagerItem(getString(R.string.topic_places_title),getString(R.string.places_text),R.drawable.ic_localization));
+        list.add(new TopicPagerItem(getString(R.string.topic_lunch_title),getString(R.string.lunch_text),R.drawable.ic_lunch));
+        list.add(new TopicPagerItem(getString(R.string.topic_market_title),getString(R.string.market_text),R.drawable.ic_market));
+        list.add(new TopicPagerItem(getString(R.string.topic_entertainment_title),getString(R.string.entertainment_text),R.drawable.ic_entertainement));
+        list.add(new TopicPagerItem(getString(R.string.topic_toilets_title),getString(R.string.toilets_text),R.drawable.ic_toilet));
+        list.add(new TopicPagerItem(getString(R.string.topic_feedback_title),getString(R.string.feedback_text),R.drawable.ic_feedback));
 
 
         //setup viewpager

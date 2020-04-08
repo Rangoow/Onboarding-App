@@ -13,18 +13,19 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.onboardingapplication.Activities.Both.FeedbackActivity;
+import com.example.onboardingapplication.Activities.Both.PlacesActivity;
 import com.example.onboardingapplication.Activities.Both.ToiletsActivity;
 import com.example.onboardingapplication.R;
-import com.example.onboardingapplication.TopicItem;
+import com.example.onboardingapplication.TopicPagerItem;
 
 import java.util.List;
 
 public class SlidePagerStudentAdapter extends PagerAdapter {
 
     Context context;
-    List<TopicItem> ListScreen;
+    List<TopicPagerItem> ListScreen;
 
-    public SlidePagerStudentAdapter(Context context, List<TopicItem> listScreen) {
+    public SlidePagerStudentAdapter(Context context, List<TopicPagerItem> listScreen) {
         this.context = context;
         ListScreen = listScreen;
     }
@@ -58,6 +59,7 @@ public class SlidePagerStudentAdapter extends PagerAdapter {
                     case 3:
                         break;
                     case 4:
+                        context.startActivity(new Intent(context, PlacesActivity.class));
                         break;
                     case 5:
                         break;
