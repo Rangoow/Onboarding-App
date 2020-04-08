@@ -30,16 +30,19 @@
 
             <TextView
                 android:id="@+id/toilet_desc"
-                android:layout_width="220dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="14dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/blogger_sans_medium"
+                android:justificationMode="inter_word"
                 android:text="Description"
                 android:textColor="@color/textColor"
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/toilet_loc"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toEndOf="@+id/toilet_img"
                 app:layout_constraintTop_toBottomOf="@+id/toilet_loc" />
 
             <TextView
@@ -48,11 +51,14 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/track_regular"
                 android:text="Title"
                 android:textColor="@color/textColor"
                 android:textSize="18sp"
                 android:textStyle="bold"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/toilet_img"
                 app:layout_constraintTop_toTopOf="parent" />
 
@@ -60,11 +66,11 @@
                 android:id="@+id/toilet_loc"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
+                android:layout_marginTop="4dp"
                 android:fontFamily="@font/blogger_sans_medium"
                 android:text="Localization"
                 android:textColor="@color/textColor"
-                android:textSize="18sp"
+                android:textSize="16sp"
                 app:layout_constraintStart_toStartOf="@+id/toilet_title"
                 app:layout_constraintTop_toBottomOf="@+id/toilet_title" />
         </androidx.constraintlayout.widget.ConstraintLayout>

@@ -32,5 +32,6 @@
 
     <!-- ITEM LIST BACKGROUND COLOR -->
     <color name="toilet_item_background">#81D4FA</color>
+    <color name="places_item_background">#7E57C2</color>
 
 </resources>
