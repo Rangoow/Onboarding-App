@@ -17,23 +17,23 @@
         <androidx.constraintlayout.widget.ConstraintLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:background="@color/toilet_item_background">
+            android:background="@color/lunch_item_background">
 
             <ImageView
-                android:id="@+id/toilet_img"
+                android:id="@+id/lunch_img"
                 android:layout_width="110dp"
                 android:layout_height="150dp"
+                android:layout_marginStart="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toTopOf="parent"
-                app:srcCompat="@drawable/ic_toilet" />
+                app:srcCompat="@drawable/ic_lunch" />
 
             <TextView
-                android:id="@+id/toilet_desc"
+                android:id="@+id/lunch_desc"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
-                android:layout_marginTop="14dp"
+                android:layout_marginTop="16dp"
                 android:layout_marginEnd="16dp"
                 android:fontFamily="@font/blogger_sans_medium"
                 android:justificationMode="inter_word"
@@ -42,11 +42,11 @@
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/toilet_img"
-                app:layout_constraintTop_toBottomOf="@+id/toilet_loc" />
+                app:layout_constraintStart_toStartOf="@+id/lunch_loc"
+                app:layout_constraintTop_toBottomOf="@+id/lunch_loc" />
 
             <TextView
-                android:id="@+id/toilet_title"
+                android:id="@+id/lunch_title"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:layout_marginStart="12dp"
@@ -59,14 +59,14 @@
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toEndOf="@+id/toilet_img"
+                app:layout_constraintStart_toEndOf="@+id/lunch_img"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/toilet_loc"
+                android:id="@+id/lunch_loc"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="4dp"
+                android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/blogger_sans_medium"
                 android:text="Localization"
@@ -74,8 +74,8 @@
                 android:textSize="16sp"
                 app:layout_constraintEnd_toEndOf="parent"
                 app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/toilet_title"
-                app:layout_constraintTop_toBottomOf="@+id/toilet_title" />
+                app:layout_constraintStart_toStartOf="@+id/lunch_title"
+                app:layout_constraintTop_toBottomOf="@+id/lunch_title" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </androidx.constraintlayout.widget.ConstraintLayout>

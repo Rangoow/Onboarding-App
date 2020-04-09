@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
 import com.example.onboardingapplication.Activities.Both.HomeActivity;
-import com.example.onboardingapplication.Adapters.SlidePagerTeacherAdapter;
+import com.example.onboardingapplication.Adapters.Pager.SlidePagerTeacherAdapter;
 import com.example.onboardingapplication.R;
 import com.example.onboardingapplication.TopicPagerItem;
 import com.google.android.material.tabs.TabLayout;

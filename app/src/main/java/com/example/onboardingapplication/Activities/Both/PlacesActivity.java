@@ -14,7 +14,7 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.onboardingapplication.Adapters.PlacesAdapter;
+import com.example.onboardingapplication.Adapters.Topics.PlacesAdapter;
 import com.example.onboardingapplication.R;
 
 import java.util.Objects;

@@ -14,24 +14,22 @@ import androidx.appcompat.app.AppCompatActivity;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.onboardingapplication.Adapters.Topics.ToiletsAdapter;
+import com.example.onboardingapplication.Adapters.Topics.LunchAdapter;
 import com.example.onboardingapplication.R;
 
 import java.util.Objects;
 
-public class ToiletsActivity extends AppCompatActivity {
+public class LunchActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
-    String toiletNameList[], toiletLocList[], toiletDescList[];
-    int images[] = {R.drawable.ic_toilet,
-                    R.drawable.ic_toilet,
-                    R.drawable.ic_toilet,
-                    R.drawable.ic_toilet,
-                    R.drawable.ic_toilet,
-                    R.drawable.ic_toilet,
-                    R.drawable.ic_toilet,
-                    R.drawable.ic_toilet};
+    String lunchNameList[], lunchLocList[], lunchDescList[];
+    int images[] = {R.drawable.ic_lunch,
+                    R.drawable.ic_lunch,
+                    R.drawable.ic_lunch,
+                    R.drawable.ic_lunch,
+                    R.drawable.ic_lunch,
+                    R.drawable.ic_lunch};
     Button homeBtn;
     TextView topicTitle;
 
@@ -48,7 +46,7 @@ public class ToiletsActivity extends AppCompatActivity {
             w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
         View view = this.getWindow().getDecorView();
-        view.setBackgroundColor(getResources().getColor(R.color.topic9Backgroundcolor));
+        view.setBackgroundColor(getResources().getColor(R.color.topic5Backgroundcolor));
 
 
 
@@ -63,18 +61,18 @@ public class ToiletsActivity extends AppCompatActivity {
         });
 
         topicTitle = findViewById(R.id.detailsTopicTitle);
-        topicTitle.setText(R.string.topic_toilets_title);
+        topicTitle.setText(R.string.topic_lunch_title);
 
 
         //Set up recycler view
         recyclerView = findViewById(R.id.recyclerView_Details);
 
-        toiletNameList = getResources().getStringArray(R.array.toilets_name_list);
-        toiletLocList = getResources().getStringArray(R.array.toilets_loc_list);
-        toiletDescList = getResources().getStringArray(R.array.toilets_desc_list);
+        lunchNameList = getResources().getStringArray(R.array.lunch_name_list);
+        lunchLocList = getResources().getStringArray(R.array.lunch_loc_list);
+        lunchDescList = getResources().getStringArray(R.array.lunch_desc_list);
 
-        ToiletsAdapter toiletsAdapter = new ToiletsAdapter(this,toiletNameList,toiletLocList,toiletDescList,images);
-        recyclerView.setAdapter(toiletsAdapter);
+        LunchAdapter lunchAdapter = new LunchAdapter(this,lunchNameList,lunchLocList,lunchDescList,images);
+        recyclerView.setAdapter(lunchAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     }

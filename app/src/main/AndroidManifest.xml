@@ -39,7 +39,8 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activities.Both.ToiletsActivity" android:screenOrientation="portrait" >
+
+        <activity android:name=".Activities.Both.PlacesActivity" android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -47,7 +48,15 @@
             </intent-filter>
         </activity>
 
-        <activity android:name=".Activities.Both.PlacesActivity" android:screenOrientation="portrait" >
+        <activity android:name=".Activities.Both.LunchActivity" android:screenOrientation="portrait" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".Activities.Both.ToiletsActivity" android:screenOrientation="portrait" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

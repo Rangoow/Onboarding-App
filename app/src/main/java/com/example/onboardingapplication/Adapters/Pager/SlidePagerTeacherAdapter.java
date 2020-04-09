@@ -1,4 +1,4 @@
-package com.example.onboardingapplication.Adapters;
+package com.example.onboardingapplication.Adapters.Pager;
 
 import android.content.Context;
 import android.content.Intent;
@@ -13,6 +13,7 @@ import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
 import com.example.onboardingapplication.Activities.Both.FeedbackActivity;
+import com.example.onboardingapplication.Activities.Both.LunchActivity;
 import com.example.onboardingapplication.Activities.Both.PlacesActivity;
 import com.example.onboardingapplication.Activities.Both.ToiletsActivity;
 import com.example.onboardingapplication.R;
@@ -51,19 +52,25 @@ public class SlidePagerTeacherAdapter extends PagerAdapter {
             public void onClick(View v) {
                 switch (position){
                     case 0:
+                        //context.startActivity(new Intent(context, VisitActivity.class));
                         break;
                     case 1:
+                        //context.startActivity(new Intent(context, InfoActivity.class));
                         break;
                     case 2:
+                        //context.startActivity(new Intent(context, AdminActivity.class));
                         break;
                     case 3:
+                        //context.startActivity(new Intent(context, NetworkActivity.class));
                         break;
                     case 4:
                         context.startActivity(new Intent(context, PlacesActivity.class));
                         break;
                     case 5:
+                        context.startActivity(new Intent(context, LunchActivity.class));
                         break;
                     case 6:
+                        //context.startActivity(new Intent(context, MarketActivity.class));
                         break;
                     case 7:
                         context.startActivity(new Intent(context, ToiletsActivity.class));

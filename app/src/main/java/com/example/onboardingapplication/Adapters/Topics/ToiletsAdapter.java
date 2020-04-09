@@ -1,4 +1,4 @@
-package com.example.onboardingapplication.Adapters;
+package com.example.onboardingapplication.Adapters.Topics;
 
 import android.content.Context;
 import android.view.LayoutInflater;

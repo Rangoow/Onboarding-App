@@ -16,7 +16,7 @@ import androidx.viewpager.widget.ViewPager;
 
 import com.example.onboardingapplication.Activities.Both.HomeActivity;
 import com.example.onboardingapplication.R;
-import com.example.onboardingapplication.Adapters.SlidePagerStudentAdapter;
+import com.example.onboardingapplication.Adapters.Pager.SlidePagerStudentAdapter;
 import com.example.onboardingapplication.TopicPagerItem;
 import com.google.android.material.tabs.TabLayout;
 

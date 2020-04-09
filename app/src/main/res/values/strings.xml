@@ -150,10 +150,10 @@
     </string-array>
 
     <string-array name="lunch_desc_list">
-        <item>Sandwiches, the fastest if you don't have time.</item>
+        <item>Sandwiches, the fastest if you don\'t have time.</item>
         <item>Sandwiches, Croqs Mr., hot dogs, the cheapest and nearest for lunch break.</item>
-        <item>Sandwiches, Burgers, Americains, the most tasty if you are hungry.</item>
-        <item>There are 4 differents restaurants : Pasta, Self, Friterie, Chicken.</item>
+        <item>Sandwiches, Burgers, Fries, the most tasty if you are hungry.</item>
+        <item>There are four differents restaurants : Pasta, Self, Friterie, Chicken.</item>
         <item>Traditional chinese foods, the most exoctic choice.</item>
         <item>Kebab, Tacos, Burgers, the simplest but effective.</item>
     </string-array>
