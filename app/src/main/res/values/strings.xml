@@ -129,5 +129,34 @@
         <item>If you want to work, read in peace or print documents this is the place to go.</item>
     </string-array>
 
+    <!-- LUNCH TOPIC -->
+
+    <string-array name="lunch_name_list">
+        <item>Dog Sandwich</item>
+        <item>MI</item>
+        <item>Boîte à Dandwich</item>
+        <item>Resto U</item>
+        <item>Mian Dian</item>
+        <item>Tigo</item>
+    </string-array>
+
+    <string-array name="lunch_loc_list">
+        <item>43 Boulevard Vauban, 59800 Lille</item>
+        <item>ISEN / B100</item>
+        <item>45 Boulevard Vauban, 59800 Lille</item>
+        <item>125 Rue Meurein, 59800 Lille</item>
+        <item>113 Rue Meurein, 59800 Lille</item>
+        <item>224 Bis Rue Nationale, 59800 Lille</item>
+    </string-array>
+
+    <string-array name="lunch_desc_list">
+        <item>Sandwiches, the fastest if you don't have time.</item>
+        <item>Sandwiches, Croqs Mr., hot dogs, the cheapest and nearest for lunch break.</item>
+        <item>Sandwiches, Burgers, Americains, the most tasty if you are hungry.</item>
+        <item>There are 4 differents restaurants : Pasta, Self, Friterie, Chicken.</item>
+        <item>Traditional chinese foods, the most exoctic choice.</item>
+        <item>Kebab, Tacos, Burgers, the simplest but effective.</item>
+    </string-array>
+
 
 </resources>
