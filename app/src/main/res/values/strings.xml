@@ -158,5 +158,31 @@
         <item>Kebab, Tacos, Burgers, the simplest but effective.</item>
     </string-array>
 
+    <!-- ENTERTAINMENT TOPIC -->
+
+    <string-array name="entertainment_name_list">
+        <item>Le Point de Départ</item>
+        <item>Le Zytho</item>
+        <item>Le BDE</item>
+        <item>Le BDS</item>
+        <item>Apophisen</item>
+    </string-array>
+
+    <string-array name="entertainment_loc_list">
+        <item>48 Rue Solférino, 59000 Lille</item>
+        <item>ISEN / B100</item>
+        <item>ISEN / B300</item>
+        <item>ISEN / B900</item>
+        <item>ISEN / B500</item>
+    </string-array>
+
+    <string-array name="entertainment_desc_list">
+        <item>it\'s THE bar where all the ISENs meet and have a drink</item>
+        <item>It\'s the ISEN bar, every Wednesday evening from 5.30pm to 7.30pm, you can taste a wide variety of beer (2€/bottle).</item>
+        <item>It\'s the association that manages all student life within ISEN, it changes every year.</item>
+        <item>It\'s the association that manages all ISEN's sporting activities and events.</item>
+        <item>It\'s the association that manages all ISEN's e-sport events.</item>
+    </string-array>
+
 
 </resources>
