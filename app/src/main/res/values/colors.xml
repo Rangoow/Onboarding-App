@@ -34,5 +34,6 @@
     <color name="toilet_item_background">#81D4FA</color>
     <color name="places_item_background">#7E57C2</color>
     <color name="lunch_item_background">#EF5350</color>
+    <color name="entertainment_item_background">#5C6BC0</color>
 
 </resources>
