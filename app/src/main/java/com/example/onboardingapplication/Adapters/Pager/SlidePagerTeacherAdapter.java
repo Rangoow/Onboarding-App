@@ -58,7 +58,7 @@ public class SlidePagerTeacherAdapter extends PagerAdapter {
                         //context.startActivity(new Intent(context, InfoActivity.class));
                         break;
                     case 2:
-                        //context.startActivity(new Intent(context, AdminActivity.class));
+                        //context.startActivity(new Intent(context, AdminTeacherActivity.class));
                         break;
                     case 3:
                         //context.startActivity(new Intent(context, NetworkActivity.class));

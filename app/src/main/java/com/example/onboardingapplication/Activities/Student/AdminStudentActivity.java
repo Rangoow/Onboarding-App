@@ -1,10 +1,5 @@
 package com.example.onboardingapplication.Activities.Student;
 
-import androidx.annotation.Nullable;
-import androidx.appcompat.app.AppCompatActivity;
-import androidx.recyclerview.widget.LinearLayoutManager;
-import androidx.recyclerview.widget.RecyclerView;
-
 import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
@@ -14,24 +9,45 @@ import android.view.WindowManager;
 import android.widget.Button;
 import android.widget.TextView;
 
+import androidx.annotation.Nullable;
+import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
+
 import com.example.onboardingapplication.Activities.Both.HomeActivity;
-import com.example.onboardingapplication.Adapters.Topics.EntertainmentAdapter;
+import com.example.onboardingapplication.Adapters.Topics.AdminStudentAdapter;
 import com.example.onboardingapplication.R;
 
 import java.util.Objects;
 
-public class AdminActivity extends AppCompatActivity {
+public class AdminStudentActivity extends AppCompatActivity {
 
     RecyclerView recyclerView;
 
-    String[] administrationNameList;
-    String[] administrationLocList;
-    String[] administrationDescList;
+    String adminNameList[], adminLocList[], adminJobList[];
     int images[] = {R.drawable.ic_administration,
             R.drawable.ic_administration,
             R.drawable.ic_administration,
             R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
+            R.drawable.ic_administration,
             R.drawable.ic_administration};
+
+
     Button homeBtn;
     TextView topicTitle;
 
@@ -41,16 +57,18 @@ public class AdminActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_details);
 
-        //SET home Button + topic title
+        //FULL SCREEN + BACKGROUND COLOR
         Objects.requireNonNull(getSupportActionBar()).hide();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             Window w = getWindow();
             w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
         }
         View view = this.getWindow().getDecorView();
-        view.setBackgroundColor(getResources().getColor(R.color.topic5Backgroundcolor));
+        view.setBackgroundColor(getResources().getColor(R.color.topic3Backgroundcolor));
 
-        //Set up recycler view
+
+
+        //SET home Button + topic title
         homeBtn = findViewById(R.id.detailsHomebtn);
         homeBtn.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -63,15 +81,16 @@ public class AdminActivity extends AppCompatActivity {
         topicTitle = findViewById(R.id.detailsTopicTitle);
         topicTitle.setText(R.string.topic_administration_title);
 
+
         //Set up recycler view
         recyclerView = findViewById(R.id.recyclerView_Details);
 
-        administrationNameList = getResources().getStringArray(R.array.administration_name_list);
-        administrationLocList = getResources().getStringArray(R.array.administration_loc_list);
-        administrationDescList = getResources().getStringArray(R.array.administration_desc_list);
+        adminNameList = getResources().getStringArray(R.array.administration_student_name);
+        adminLocList = getResources().getStringArray(R.array.administration_student_loc);
+        adminJobList = getResources().getStringArray(R.array.administration_student_job);
 
-        EntertainmentAdapter entertainmentAdapter = new EntertainmentAdapter(this,administrationNameList,administrationLocList,administrationDescList,images);
-        recyclerView.setAdapter(entertainmentAdapter);
+        AdminStudentAdapter adminStudentAdapter = new AdminStudentAdapter(this,adminNameList,adminLocList,adminJobList,images);
+        recyclerView.setAdapter(adminStudentAdapter);
         recyclerView.setLayoutManager(new LinearLayoutManager(this));
 
     }

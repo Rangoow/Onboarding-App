@@ -3,8 +3,8 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".Activities.Student.AdminActivity">
+    android:layout_height="wrap_content"
+    tools:context=".Activities.Student.AdminStudentActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -22,8 +22,8 @@
 
             <ImageView
                 android:id="@+id/admin_img"
-                android:layout_width="110dp"
-                android:layout_height="150dp"
+                android:layout_width="100dp"
+                android:layout_height="130dp"
                 android:layout_marginStart="8dp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
@@ -31,51 +31,46 @@
                 app:srcCompat="@drawable/ic_administration" />
 
             <TextView
-                android:id="@+id/admin_desc"
+                android:id="@+id/admin_student_job"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
-                android:layout_marginEnd="16dp"
+                android:layout_marginTop="8dp"
+                android:layout_marginEnd="8dp"
                 android:fontFamily="@font/blogger_sans_medium"
-                android:justificationMode="inter_word"
-                android:text="Description"
+                android:text="Job"
                 android:textColor="@color/textColor"
-                android:textSize="16sp"
+                android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toStartOf="@+id/admin_loc"
-                app:layout_constraintTop_toBottomOf="@+id/admin_loc" />
+                app:layout_constraintStart_toEndOf="@+id/admin_img"
+                app:layout_constraintTop_toBottomOf="@+id/admin_student_name" />
 
             <TextView
-                android:id="@+id/admin_title"
+                android:id="@+id/admin_student_name"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="12dp"
                 android:layout_marginTop="8dp"
                 android:layout_marginEnd="8dp"
                 android:fontFamily="@font/track_regular"
-                android:text="Title"
+                android:text="Name"
                 android:textColor="@color/textColor"
-                android:textSize="18sp"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
                 app:layout_constraintStart_toEndOf="@+id/admin_img"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
-                android:id="@+id/admin_loc"
+                android:id="@+id/admin_student_loc"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="8dp"
-                android:layout_marginEnd="8dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginBottom="16dp"
                 android:fontFamily="@font/blogger_sans_medium"
                 android:text="Localization"
                 android:textColor="@color/textColor"
-                android:textSize="16sp"
-                app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintHorizontal_bias="0.0"
-                app:layout_constraintStart_toStartOf="@+id/admin_title"
-                app:layout_constraintTop_toBottomOf="@+id/admin_title" />
+                android:textSize="20sp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent" />
 
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
