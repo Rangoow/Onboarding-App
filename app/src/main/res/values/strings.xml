@@ -184,5 +184,75 @@
         <item>It\'s the association that manages all ISEN\'s e-sport events.</item>
     </string-array>
 
+    <!-- ADMIN TOPIC -->
+
+    <string-array name="administration_name_list">
+        <item>Responsable cycle prepa CSI</item>
+        <item>Responsable cycle prepa CIR</item>
+        <item>Responsable cycle prepa Num et Bio</item>
+        <item>Responsable cycle CSI3 et CIR3</item>
+        <item>Responsable cycle Alternants</item>
+        <item>Responsable cycle M1</item>
+        <item>Responsable cycle M2</item>
+        <item>Responsable domaine developpement logiciel</item>
+        <item>Responsable domaine Robotique Mobile</item>
+        <item>Responsable domaine Objets Connectes</item>
+        <item>Responsable domaine Intelligence Artifcielle et RA</item>
+        <item>Responsable domaine Electroniques embarquees</item>
+        <item>Responsable domaine Bio-nanotechs</item>
+        <item>Responsable domaine Big data</item>
+        <item>Responsable domaine Cybersecurite</item>
+        <item>Responsable domaine Ingenieur d\'affaires</item>
+        <item>Responsable domaine Informatique et finance</item>
+        <item>Responsable FH</item>
+        <item>Responsable International</item>
+        <item>Diagramme hierachique</item>
+    </string-array>
+    
+    <string-array name="administration_loc_list">
+        <item>A606</item>
+        <item>C664</item>
+        <item>C461</item>
+        <item>C461</item>
+        <item></item>
+        <item>C857</item>
+        <item></item>
+        <item>C659</item>
+        <item>C668</item>
+        <item>C461</item>
+        <item>C660</item>
+        <item>C459</item>
+        <item>C662</item>
+        <item>C669</item>
+        <item>C664</item>
+        <item>A621</item>
+        <item>A622</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <string-array name="administration_desc_list">
+        <item>Laurent Detavernier</item>
+        <item>Gabriel Chenevert</item>
+        <item>Mickael Morelle</item>
+        <item>Mickael Morelle</item>
+        <item></item>
+        <item>Evelyn Litton</item>
+        <item></item>
+        <item>Dominique Delannoy</item>
+        <item>Anne-Marie Kokosy</item>
+        <item>Mickael Morelle</item>
+        <item>Nacim Ihaddadene</item>
+        <item>Jean Marc Capron</item>
+        <item>Bruno Grandidier</item>
+        <item>Féryal Windal</item>
+        <item>Gabriel Chenevert</item>
+        <item>Frédérique Grummetz</item>
+        <item>Frédérique Grummetz</item>
+        <item>Frédérique Grummetz</item>
+        <item>Evelyne Litton</item>
+        <item></item>
+    </string-array>
 
 </resources>
