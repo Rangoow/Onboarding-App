@@ -275,4 +275,39 @@
     </string-array>
 
 
+    <!-- ADMINISTRATION TEACHER TOPIC -->
+    <string-array name="administration_teacher_name">
+        <item>Service RH</item>
+        <item>DSI</item>
+        <item>DSG</item>
+        <item>DAF</item>
+        <item>DIIP</item>
+        <item>Service Com</item>
+        <item>Service Etude</item>
+        <item>Acceuil</item>
+    </string-array>
+
+    <string-array name="administration_teacher_loc">
+        <item>29/31 Boulevard Vauban</item>
+        <item>Angle Vauban Segard</item>
+        <item>Angle Vauban Segard</item>
+        <item>29/31 Boulevard Vauban</item>
+        <item>29/31 Boulevard Vauban</item>
+        <item>ISEN - C800</item>
+        <item>ISEN - B300</item>
+        <item>ISEN</item>
+    </string-array>
+
+    <string-array name="administration_teacher_contact">
+        <item></item>
+        <item>2345@yncrea.fr</item>
+        <item>dsg@yncrea.fr</item>
+        <item>yncrea@cap5.fr</item>
+        <item>diip-learning-development@yncrea.fr</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+
 </resources>
