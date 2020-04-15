@@ -309,5 +309,33 @@
         <item></item>
     </string-array>
 
+    <!-- MARKET TOPIC -->
+
+    <string-array name="market_name_list">
+        <item>Match</item>
+        <item>Carrefour Market</item>
+        <item>Carrefour Express</item>
+        <item>BioCoop / Bio c Bon</item>
+        <item>Marché de Wazemmes</item>
+    </string-array>
+
+    <string-array name="market_loc_list">
+        <item>97 Rue Solférino, Lille</item>
+        <item>281 Rue Léon Gambetta, Lille</item>
+        <item>298 Rue Nationale,  Lille</item>
+        <item>98 Rue Solférino, Lille</item>
+        <item>Place Nouvelle Aventure, Lille</item>
+    </string-array>
+
+    <string-array name="market_desc_list">
+        <item>Match is the nearest supermarket to ISEN.</item>
+        <item>Carrefour market is the biggest supermarket in the area around ISEN.</item>
+        <item>Carrefour express is THE store for last minute shopping, if you are missing a meal for lunch it's the fastest.</item>
+        <item>These two organic stores offer student prices and are both located next to ISEN.</item>
+        <item>The Wazemmes market let you buy vegetables at a lower price! It takes place every Tuesday, Thursday and Sunday.</item>
+    </string-array>
+
+
+
 
 </resources>
