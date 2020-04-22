@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+    <color name="colorPrimary">#6200EE</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <color name="colorAccent">#03DAC5</color>
+    <color name="transparent">#00000000</color>
+
+    <!-- BACKGROUND COLORS -->
+    <color name="gradientDarkBackgroundColor">#181949</color>
+    <color name="homeBackgroundColor">#303192</color>
+    <color name="topic1Backgroundcolor">#2196F3</color>
+    <color name="topic2Backgroundcolor">#03A9F4</color>
+    <color name="topic3Backgroundcolor">#00BCD4</color>
+    <color name="topic4Backgroundcolor">#009688</color>
+    <color name="topic5Backgroundcolor">#4CAF50</color>
+    <color name="topic6Backgroundcolor">#8BC34A</color>
+    <color name="topic7Backgroundcolor">#CDDC39</color>
+    <color name="topic8Backgroundcolor">#E8D52B</color>
+    <color name="topic9Backgroundcolor">#FFC107</color>
+    <color name="topic10Backgroundcolor">#FF9800</color>
+    <color name="topic11Backgroundcolor">#FF5722</color>
+
+    <!-- TEXT COLOR -->
+    <color name="textColor">#FFFFFF</color>
+
+    <!-- BUTTON COLORS -->
+    <color name="buttonColor">#E30613</color>
+
+    <!-- INDICATOR COLORS -->
+    <color name="indicatorColor">#8E8E8E</color>
+    <color name="indicatorSelectedColor">#E62530</color>
+
+    <!-- ITEM LIST BACKGROUND COLOR -->
+    <color name="toilet_item_background">#81D4FA</color>
+    <color name="places_item_background">#7E57C2</color>
+    <color name="lunch_item_background">#EF5350</color>
+    <color name="entertainment_item_background">#5C6BC0</color>
+    <color name="admin_item_background">#FF7043</color>
+    <color name="market_item_background">#FFA726</color>
+    <color name="network_item_background">#009688</color>
+
+
+</resources>

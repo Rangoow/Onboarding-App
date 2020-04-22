@@ -1,0 +1,389 @@
+<resources>
+    <string name="app_name">ISEN Onboarding App</string>
+
+    <!-- SPLASH SCREEN -->
+    <string name="splash_screen">Onboarding App ISEN</string>
+
+    <!-- HOME PAGE -->
+    <string name="home_welcome_text">Welcome\nto\nISEN\nLille !</string>
+    <string name="home_profile_text">CHOOSE YOUR PROFILE :</string>
+
+    <!-- TOPIC TITLE -->
+    <string name="topic_visit_title">VISIT</string>
+    <string name="topic_information_title">INFORMATION</string>
+    <string name="topic_administration_title">ADMINISTRATION</string>
+    <string name="topic_network_title">NETWORK</string>
+    <string name="topic_places_title">PLACES</string>
+    <string name="topic_lunch_title">LUNCH</string>
+    <string name="topic_market_title">MARKET</string>
+    <string name="topic_entertainment_title">ENTERTAINMENT</string>
+    <string name="topic_toilets_title">TOILETS</string>
+    <string name="topic_feedback_title">FEEDBACK</string>
+
+    <!-- BUTTON TEXTS -->
+    <string name="home_student_button">STUDENT</string>
+    <string name="home_teacher_button">TEACHER</string>
+    <string name="topic_more_info_button">MORE INFORMATION</string>
+    <string name="topic_next_button">NEXT</string>
+
+
+    <!-- TOPIC DESCRIPTION -->
+    <string name="visit_text">
+        A l\’ISEN, nous savons qu\’il est difficile de se repérer lorsque nous venons d\’arriver.
+        Ici, tu trouveras ainsi une map simplifiée pour trouver facilement une salle. </string>
+    <string name="information_text">
+        Ici tu trouveras quelques informations et chiffres importants pour mieux connaitre l\'ISEN.</string>
+    <string name="administration_text_student">
+        Ici, tu trouveras tous les lieux dans l\'ISEN en lien avec l\'administration ainsi que le bureau des principaux responsables.</string>
+    <string name="administration_text_teacher">
+        Ici, tu trouveras tous les bureaux de l\’administration ainsi que les différents services qui vous seront utiles</string>
+    <string name="network_text">
+        Ici, tu trouveras tous les sites importants, et utilisés par les étudiants et les professeurs</string>
+    <string name="places_text">
+        Ici, tu trouveras tous les endroits qui pourront t\'être utile au cours de ton aventure à l\'ISEN.</string>
+    <string name="lunch_text">
+        Tu ne sais pas où manger ? Pas de problème, nous avons ici regroupé les endroits préférés des ISENs pour manger.</string>
+    <string name="market_text">
+        Ici, tu trouveras tous les magasins aux alentours de l\’ISEN, pratique pour savoir où faire ses courses !</string>
+    <string name="entertainment_text">
+        Ici, tu trouveras tous les endroits importants liés à la vie étudiante à l\’ISEN.</string>
+    <string name="toilets_text">
+        Besoin de passer au petit coin ? Nous avons repertorié  toutes les options qui s\'offrent à vous.</string>
+    <string name="feedback_text">
+        As-tu des suggestions pour notre application？ Des idées pour aider les nouveaux arrivants？
+        Note-les et laisse tes informations dans le but de communiquer avec nous.</string>
+
+    <!-- FEEDBACK TOPIC -->
+    <string name="feedback_field_1_text">Name :</string>
+    <string name="feedback_field_2_text">Last Name :</string>
+    <string name="feedback_field_3_text">Situation :</string>
+    <string name="feedback_field_4_text">Comment :</string>
+    <string name="feedback_field_5_text">E-mail :</string>
+
+    <string name="feedback_field_1_hint">Enter your name</string>
+    <string name="feedback_field_2_hint">Enter your last name</string>
+    <string name="feedback_field_3_btnRadio_text_1">Student</string>
+    <string name="feedback_field_3_btnRadio_text_2">Teacher</string>
+    <string name="feedback_field_4_hint">Enter your comment</string>
+    <string name="feedback_field_5_hint">Enter your e-mail</string>
+
+    <!-- TOILETS TOPIC -->
+
+    <string-array name="toilets_loc_list">
+        <item>B300</item>
+        <item>A400</item>
+        <item>A800</item>
+        <item>B800</item>
+        <item>A900</item>
+        <item>B600</item>
+        <item>C800</item>
+        <item>C900</item>
+    </string-array>
+
+    <string-array name="toilets_name_list">
+        <item>Atrium\'s Toilets</item>
+        <item>Prepa\'s Toilets</item>
+        <item>English Toilets</item>
+        <item>Vauban\'s Toilets</item>
+        <item>Far away Toilets</item>
+        <item>Unknown Toilets</item>
+        <item>Exam\'s Toilets</item>
+        <item>TP\'s Toilets</item>
+    </string-array>
+
+    <string-array name="toilets_desc_list">
+        <item>Passing toilets, useful if you pass by but very busy and often condemned.</item>
+        <item>Quiet and clean toilets, they are always well maintained, it\'s THE best option.</item>
+        <item>Small toilet but it feels in harmony near English classes, weak point: you are often disturbed.</item>
+        <item>Relatively quiet toilets, with a view of Boulevard Vauban.</item>
+        <item>Discreet toilets, it is difficult to access but it is a haven of peace and calm.</item>
+        <item>Relatively narrow toilets, but they are simple and efficient.</item>
+        <item>Indispensable toilets during DS / partial, they are little frequented and always in good condition.</item>
+        <item>Clean toilets, but very busy during break times.</item>
+    </string-array>
+
+
+    <!-- PLACES TOPIC -->
+
+    <string-array name="places_name_list">
+        <item>Co-Working</item>
+        <item>FabLab</item>
+        <item>BDE</item>
+        <item>MI</item>
+        <item>Library</item>
+    </string-array>
+
+    <string-array name="places_loc_list">
+        <item>Atrium / A300 </item>
+        <item>Adicode / A300</item>
+        <item>Atrium / B300</item>
+        <item>Sous sol / 100</item>
+        <item>C800</item>
+    </string-array>
+
+    <string-array name="places_desc_list">
+        <item>Perfect space for group work.</item>
+        <item>This is the ISEN workshop, you can find soldering irons, 3D printers, or even electronic equipment.</item>
+        <item>If you are looking for information about associations, student life or events at ISEN you should go here.</item>
+        <item>If you are hungry or want a drink during the day, you should go here! They also serve sandwiches for lunch!</item>
+        <item>If you want to work, read in peace or print documents this is the place to go.</item>
+    </string-array>
+
+    <!-- LUNCH TOPIC -->
+
+    <string-array name="lunch_name_list">
+        <item>Dog Sandwich</item>
+        <item>MI</item>
+        <item>Boîte à Dandwich</item>
+        <item>Resto U</item>
+        <item>Mian Dian</item>
+        <item>Tigo</item>
+    </string-array>
+
+    <string-array name="lunch_loc_list">
+        <item>43 Boulevard Vauban, 59800 Lille</item>
+        <item>ISEN / B100</item>
+        <item>45 Boulevard Vauban, 59800 Lille</item>
+        <item>125 Rue Meurein, 59800 Lille</item>
+        <item>113 Rue Meurein, 59800 Lille</item>
+        <item>224 Bis Rue Nationale, 59800 Lille</item>
+    </string-array>
+
+    <string-array name="lunch_desc_list">
+        <item>Sandwiches, the fastest if you don\'t have time.</item>
+        <item>Sandwiches, Croqs Mr., hot dogs, the cheapest and nearest for lunch break.</item>
+        <item>Sandwiches, Burgers, Fries, the most tasty if you are hungry.</item>
+        <item>There are four differents restaurants : Pasta, Self, Friterie, Chicken.</item>
+        <item>Traditional chinese foods, the most exoctic choice.</item>
+        <item>Kebab, Tacos, Burgers, the simplest but effective.</item>
+    </string-array>
+
+    <!-- ENTERTAINMENT TOPIC -->
+
+    <string-array name="entertainment_name_list">
+        <item>Le Point de Départ</item>
+        <item>Le Zytho</item>
+        <item>Le BDE</item>
+        <item>Le BDS</item>
+        <item>Apophisen</item>
+    </string-array>
+
+    <string-array name="entertainment_loc_list">
+        <item>48 Rue Solférino, 59000 Lille</item>
+        <item>ISEN / B100</item>
+        <item>ISEN / B300</item>
+        <item>ISEN / B900</item>
+        <item>ISEN / B500</item>
+    </string-array>
+
+    <string-array name="entertainment_desc_list">
+        <item>it\'s THE bar where all the ISENs meet and have a drink</item>
+        <item>It\'s the ISEN bar, every Wednesday evening from 5.30pm to 7.30pm, you can taste a wide variety of beer (2€/bottle).</item>
+        <item>It\'s the association that manages all student life within ISEN, it changes every year.</item>
+        <item>It\'s the association that manages all ISEN\'s sporting activities and events.</item>
+        <item>It\'s the association that manages all ISEN\'s e-sport events.</item>
+    </string-array>
+
+    <!-- ADMIN TOPIC -->
+
+    <!-- ADMINISTRATION STUDENT TOPIC -->
+    <string-array name="administration_student_name">
+        <!-- DIRECTION -->
+        <item>M. OCCRE</item>
+        <item>M. BOULINGUEZ</item>
+        <!-- RESP IMPORTANT -->
+        <item>Mme. GRUMMETZ</item>
+        <item>Mme. LITTON</item>
+        <!-- RESP CYCLE -->
+        <item>M. DETAVERNIER</item>
+        <item>M. CHENEVERT</item>
+        <item>M. MORELLE</item>
+        <item>M. MORELLE</item>
+        <item>Mme. LITTON</item>
+        <item>INCONNU</item>
+        <!-- RESP DOMAINE -->
+        <item>M. DELANNOY</item>
+        <item>Mme. KOKOSY</item>
+        <item>M. MORELLE</item>
+        <item>M. IHADDADENNE</item>
+        <item>M. CAPRON</item>
+        <item>M. GRANDIDIER</item>
+        <item>M. WINDAL</item>
+        <item>M. CHENEVERT</item>
+        <item>Mme. GRUMMETZ</item>
+        <item>Mme. GRUMMETZ</item>
+        <!-- ADMINISTRATIF -->
+        <item>Bureau des Etudes</item>
+    </string-array>
+
+    <string-array name="administration_student_job">
+        <!-- DIRECTION -->
+        <item>Directeur</item>
+        <item>Directeur Campus</item>
+        <!-- RESP IMPORTANT -->
+        <item>Responsable FHES </item>
+        <item>Responsable Internationale</item>
+        <!-- RESP CYCLE -->
+        <item>Responsable CSI1/2</item>
+        <item>Responsable CIR1/2</item>
+        <item>Responsable CNB</item>
+        <item>Responsable CSI3/CIR3</item>
+        <item>Responsable M1</item>
+        <item>Responsable M2</item>
+        <!-- RESP DOMAINE -->
+        <item>Responsable Dev Logiciel et Jeux Vidéos</item>
+        <item>Responsable Robotique Mobile</item>
+        <item>Responsable Objets Connectés</item>
+        <item>Responsable IA et RA</item>
+        <item>Responsable Electroniques Embarquées</item>
+        <item>Responsable Bio-nanotechs</item>
+        <item>Responsable Big Data</item>
+        <item>Responsable Cybersécurité</item>
+        <item>Responsable Ingégnieur d\'affaires</item>
+        <item>Responsable Informatiques et Finance</item>
+        <!-- ADMINISTRATIF -->
+        <item>Toute la paperasse</item>
+    </string-array>
+
+    <string-array name="administration_student_loc">
+        <!-- DIRECTION -->
+        <item>SALLE</item>
+        <item>B300</item>
+        <!-- RESP IMPORTANT -->
+        <item>A600</item>
+        <item>A800</item>
+        <!-- RESP CYCLE -->
+        <item>A606</item>
+        <item>C664</item>
+        <item>C461</item>
+        <item>C461</item>
+        <item>C857</item>
+        <item>SALLE</item>
+        <!-- RESP DOMAINE -->
+        <item>C659</item>
+        <item>C668</item>
+        <item>C461</item>
+        <item>C660</item>
+        <item>C459</item>
+        <item>C662</item>
+        <item>C669</item>
+        <item>C664</item>
+        <item>A621</item>
+        <item>A622</item>
+        <!-- ADMINISTRATIF -->
+        <item>B300</item>
+    </string-array>
+
+
+    <!-- ADMINISTRATION TEACHER TOPIC -->
+    <string-array name="administration_teacher_name">
+        <item>Service RH</item>
+        <item>DSI</item>
+        <item>DSG</item>
+        <item>DAF</item>
+        <item>DIIP</item>
+        <item>Service Com</item>
+        <item>Service Etude</item>
+        <item>Acceuil</item>
+    </string-array>
+
+    <string-array name="administration_teacher_loc">
+        <item>29/31 Boulevard Vauban</item>
+        <item>Angle Vauban Segard</item>
+        <item>Angle Vauban Segard</item>
+        <item>29/31 Boulevard Vauban</item>
+        <item>29/31 Boulevard Vauban</item>
+        <item>ISEN - C800</item>
+        <item>ISEN - B300</item>
+        <item>ISEN</item>
+    </string-array>
+
+    <string-array name="administration_teacher_contact">
+        <item></item>
+        <item>2345@yncrea.fr</item>
+        <item>dsg@yncrea.fr</item>
+        <item>yncrea@cap5.fr</item>
+        <item>diip-learning-development@yncrea.fr</item>
+        <item></item>
+        <item></item>
+        <item></item>
+    </string-array>
+
+    <!-- MARKET TOPIC -->
+
+    <string-array name="market_name_list">
+        <item>Match</item>
+        <item>Carrefour Market</item>
+        <item>Carrefour Express</item>
+        <item>BioCoop / Bio c Bon</item>
+        <item>Marché de Wazemmes</item>
+    </string-array>
+
+    <string-array name="market_loc_list">
+        <item>97 Rue Solférino, Lille</item>
+        <item>281 Rue Léon Gambetta, Lille</item>
+        <item>298 Rue Nationale,  Lille</item>
+        <item>98 Rue Solférino, Lille</item>
+        <item>Place Nouvelle Aventure, Lille</item>
+    </string-array>
+
+    <string-array name="market_desc_list">
+        <item>Match is the nearest supermarket to ISEN.</item>
+        <item>Carrefour market is the biggest supermarket in the area around ISEN.</item>
+        <item>Carrefour express is THE store for last minute shopping, if you are missing a meal for lunch it\'s the fastest.</item>
+        <item>These two organic stores offer student prices and are both located next to ISEN.</item>
+        <item>The Wazemmes market let you buy vegetables at a lower price! It takes place every Tuesday, Thursday and Sunday.</item>
+    </string-array>
+
+    <string-array name="network_student_name_list">
+        <item>Campus isen</item>
+        <item>Aurion</item>
+        <item>jobteaser yncrea</item>
+        <item>Site du bde</item>
+        <item>Site ISEN</item>
+    </string-array>
+
+    <string-array name="network_student_link_list">
+        <item>https://campus.isen.fr/</item>
+        <item>https://aurion.yncrea.fr/</item>
+        <item>https://yncrea-hdf.jobteaser.com/</item>
+        <item>https://divinisen.fr/</item>
+        <item>https://www.isen-lille.fr/</item>
+    </string-array>
+
+    <string-array name="network_student_des_list">
+        <item>Site permettant de publier des documents pour ses élèves, et d\'effectuer des rendus de travail</item>
+        <item>Site indispensable, emploi du temps avec reservation de salles et projecteurs, saisie des notes et des absences</item>
+        <item>Besoin de trouver un stage ou un job?</item>
+        <item>Pour te retrouver par rapport aux événements du BDE</item>
+        <item>Site permettant de rester à jours par rapport aux actualités de l\'ISEN</item>
+    </string-array>
+
+
+
+    <string-array name="network_teacher_name_list">
+        <item>Campus isen</item>
+        <item>Aurion</item>
+        <item>Fastilog</item>
+        <item>Mon portail RH</item>
+        <item>Site ISEN</item>
+    </string-array>
+
+    <string-array name="network_teacher_link_list">
+        <item>https://campus.isen.fr/</item>
+        <item>https://aurion.yncrea.fr/</item>
+        <item>https://ssl.fastilog.fr/fastilog/</item>
+        <item>https://app.monportailrh.com/</item>
+        <item>https://www.isen-lille.fr/</item>
+    </string-array>
+
+    <string-array name="network_teacher_des_list">
+        <item>Site permettant de publier des documents pour ses élèves, et d\'effectuer des rendus de travail</item>
+        <item>Site indispensable, emploi du temps avec reservation de salles et projecteurs, saisie des notes et des absences</item>
+        <item>Application mission/congés</item>
+        <item>Entretien annuel / fiches de paie / formations (plan de développement des compétences)</item>
+        <item>Site permettant de rester à jours par rapport aux actualités de l\'ISEN</item>
+    </string-array>
+
+
+</resources>
