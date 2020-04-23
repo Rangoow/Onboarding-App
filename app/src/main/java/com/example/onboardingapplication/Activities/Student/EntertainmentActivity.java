@@ -25,11 +25,11 @@ public class EntertainmentActivity extends AppCompatActivity {
     RecyclerView recyclerView;
 
     String entertainmentNameList[], entertainmentLocList[], entertainmentDescList[];
-    int images[] = {R.drawable.ic_localization,
-                    R.drawable.ic_localization,
-                    R.drawable.ic_localization,
-                    R.drawable.ic_localization,
-                    R.drawable.ic_localization};
+    int images[] = {R.drawable.ic_entertainement,
+                    R.drawable.ic_entertainement,
+                    R.drawable.ic_entertainement,
+                    R.drawable.ic_entertainement,
+                    R.drawable.ic_entertainement};
     Button homeBtn;
     TextView topicTitle;
 
