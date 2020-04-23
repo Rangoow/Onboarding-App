@@ -335,12 +335,14 @@
         <item>The Wazemmes market let you buy vegetables at a lower price! It takes place every Tuesday, Thursday and Sunday.</item>
     </string-array>
 
+    <!-- NETWORK TOPIC -->
+
     <string-array name="network_student_name_list">
-        <item>Campus isen</item>
+        <item>Campus ISEN</item>
         <item>Aurion</item>
-        <item>jobteaser yncrea</item>
-        <item>Site du bde</item>
-        <item>Site ISEN</item>
+        <item>Jobteaser Yncrea</item>
+        <item>BDE Website</item>
+        <item>ISEN Website</item>
     </string-array>
 
     <string-array name="network_student_link_list">
@@ -352,17 +354,17 @@
     </string-array>
 
     <string-array name="network_student_des_list">
-        <item>Site permettant de publier des documents pour ses élèves, et d\'effectuer des rendus de travail</item>
-        <item>Site indispensable, emploi du temps avec reservation de salles et projecteurs, saisie des notes et des absences</item>
-        <item>Besoin de trouver un stage ou un job?</item>
-        <item>Pour te retrouver par rapport aux événements du BDE</item>
-        <item>Site permettant de rester à jours par rapport aux actualités de l\'ISEN</item>
+        <item>Website allowing to publish documents for its students, and to make work reports.</item>
+        <item>Indispensable website, timetable with reservation of rooms, entry of notes and absences.</item>
+        <item>Website providing internship offers for Yncrea students.</item>
+        <item>Website gathering all the information concerning the BDE as well as the organized events.</item>
+        <item>Website to stay up to date with ISEN news</item>
     </string-array>
 
 
 
     <string-array name="network_teacher_name_list">
-        <item>Campus isen</item>
+        <item>Campus ISEN</item>
         <item>Aurion</item>
         <item>Fastilog</item>
         <item>Mon portail RH</item>
@@ -378,11 +380,11 @@
     </string-array>
 
     <string-array name="network_teacher_des_list">
-        <item>Site permettant de publier des documents pour ses élèves, et d\'effectuer des rendus de travail</item>
-        <item>Site indispensable, emploi du temps avec reservation de salles et projecteurs, saisie des notes et des absences</item>
-        <item>Application mission/congés</item>
-        <item>Entretien annuel / fiches de paie / formations (plan de développement des compétences)</item>
-        <item>Site permettant de rester à jours par rapport aux actualités de l\'ISEN</item>
+        <item>Website allowing to publish documents for its students, and to make work reports</item>
+        <item>Indispensable website, timetable with reservation of rooms, entry of notes and absences</item>
+        <item>Mission / vacation application</item>
+        <item>Annual interview / payslips / training (skills development plan)</item>
+        <item>Website allowing you to stay up to date with ISEN news.</item>
     </string-array>
 
 
