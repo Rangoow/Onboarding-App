@@ -37,6 +37,7 @@
     <color name="entertainment_item_background">#5C6BC0</color>
     <color name="admin_item_background">#FF7043</color>
     <color name="market_item_background">#FFA726</color>
+    <color name="network_item_background">#FFCA28</color>
 
 
 </resources>

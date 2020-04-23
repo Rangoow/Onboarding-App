@@ -335,7 +335,57 @@
         <item>The Wazemmes market let you buy vegetables at a lower price! It takes place every Tuesday, Thursday and Sunday.</item>
     </string-array>
 
+    <!-- NETWORK TOPIC -->
 
+    <string-array name="network_student_name_list">
+        <item>Campus ISEN</item>
+        <item>Aurion</item>
+        <item>Jobteaser Yncrea</item>
+        <item>BDE Website</item>
+        <item>ISEN Website</item>
+    </string-array>
+
+    <string-array name="network_student_link_list">
+        <item>https://campus.isen.fr/</item>
+        <item>https://aurion.yncrea.fr/</item>
+        <item>https://yncrea-hdf.jobteaser.com/</item>
+        <item>https://divinisen.fr/</item>
+        <item>https://www.isen-lille.fr/</item>
+    </string-array>
+
+    <string-array name="network_student_des_list">
+        <item>Website allowing to publish documents for its students, and to make work reports.</item>
+        <item>Indispensable website, timetable with reservation of rooms, entry of notes and absences.</item>
+        <item>Website providing internship offers for Yncrea students.</item>
+        <item>Website gathering all the information concerning the BDE as well as the organized events.</item>
+        <item>Website to stay up to date with ISEN news</item>
+    </string-array>
+
+
+
+    <string-array name="network_teacher_name_list">
+        <item>Campus ISEN</item>
+        <item>Aurion</item>
+        <item>Fastilog</item>
+        <item>Mon portail RH</item>
+        <item>Site ISEN</item>
+    </string-array>
+
+    <string-array name="network_teacher_link_list">
+        <item>https://campus.isen.fr/</item>
+        <item>https://aurion.yncrea.fr/</item>
+        <item>https://ssl.fastilog.fr/fastilog/</item>
+        <item>https://app.monportailrh.com/</item>
+        <item>https://www.isen-lille.fr/</item>
+    </string-array>
+
+    <string-array name="network_teacher_des_list">
+        <item>Website allowing to publish documents for its students, and to make work reports</item>
+        <item>Indispensable website, timetable with reservation of rooms, entry of notes and absences</item>
+        <item>Mission / vacation application</item>
+        <item>Annual interview / payslips / training (skills development plan)</item>
+        <item>Website allowing you to stay up to date with ISEN news.</item>
+    </string-array>
 
 
 </resources>

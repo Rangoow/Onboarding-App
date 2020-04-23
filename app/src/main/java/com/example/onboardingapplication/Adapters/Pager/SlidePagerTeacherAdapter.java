@@ -18,6 +18,7 @@ import com.example.onboardingapplication.Activities.Both.MarketActivity;
 import com.example.onboardingapplication.Activities.Both.PlacesActivity;
 import com.example.onboardingapplication.Activities.Both.ToiletsActivity;
 import com.example.onboardingapplication.Activities.Teacher.AdminTeacherActivity;
+import com.example.onboardingapplication.Activities.Teacher.NetworkTeacherActivity;
 import com.example.onboardingapplication.R;
 import com.example.onboardingapplication.TopicPagerItem;
 
@@ -63,7 +64,7 @@ public class SlidePagerTeacherAdapter extends PagerAdapter {
                         context.startActivity(new Intent(context, AdminTeacherActivity.class));
                         break;
                     case 3:
-                        //context.startActivity(new Intent(context, NetworkActivity.class));
+                        context.startActivity(new Intent(context, NetworkTeacherActivity.class));
                         break;
                     case 4:
                         context.startActivity(new Intent(context, PlacesActivity.class));
