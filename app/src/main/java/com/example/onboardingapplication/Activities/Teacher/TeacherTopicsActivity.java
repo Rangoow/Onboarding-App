@@ -96,7 +96,7 @@ public class TeacherTopicsActivity extends AppCompatActivity {
             }
         });
 
-        //Gradient color animatin
+        //Gradient color animation
 
         valueAnimator = ValueAnimator.ofObject(new ArgbEvaluator(),
                 getResources().getColor(R.color.topic1Backgroundcolor),

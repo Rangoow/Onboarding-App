@@ -12,6 +12,7 @@ import android.widget.TextView;
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
 
+import com.example.onboardingapplication.Activities.Both.ComingSoonActivity;
 import com.example.onboardingapplication.Activities.Both.FeedbackActivity;
 import com.example.onboardingapplication.Activities.Both.LunchActivity;
 import com.example.onboardingapplication.Activities.Both.MarketActivity;
@@ -55,10 +56,10 @@ public class SlidePagerTeacherAdapter extends PagerAdapter {
             public void onClick(View v) {
                 switch (position){
                     case 0:
-                        //context.startActivity(new Intent(context, VisitActivity.class));
+                        context.startActivity(new Intent(context, ComingSoonActivity.class));
                         break;
                     case 1:
-                        //context.startActivity(new Intent(context, InfoActivity.class));
+                        context.startActivity(new Intent(context, ComingSoonActivity.class));
                         break;
                     case 2:
                         context.startActivity(new Intent(context, AdminTeacherActivity.class));

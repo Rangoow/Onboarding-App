@@ -28,30 +28,21 @@
 
 
     <!-- TOPIC DESCRIPTION -->
-    <string name="visit_text">
-        A l\’ISEN, nous savons qu\’il est difficile de se repérer lorsque nous venons d\’arriver.
-        Ici, tu trouveras ainsi une map simplifiée pour trouver facilement une salle. </string>
-    <string name="information_text">
-        Ici tu trouveras quelques informations et chiffres importants pour mieux connaitre l\'ISEN.</string>
-    <string name="administration_text_student">
-        Ici, tu trouveras tous les lieux dans l\'ISEN en lien avec l\'administration ainsi que le bureau des principaux responsables.</string>
-    <string name="administration_text_teacher">
-        Ici, tu trouveras tous les bureaux de l\’administration ainsi que les différents services qui vous seront utiles</string>
-    <string name="network_text">
-        Ici, tu trouveras tous les sites importants, et utilisés par les étudiants et les professeurs</string>
-    <string name="places_text">
-        Ici, tu trouveras tous les endroits qui pourront t\'être utile au cours de ton aventure à l\'ISEN.</string>
+    <string name="visit_text">Here you will find a simplified map for easily finding a room.</string>
+    <string name="information_text">Here you will find some information to get to know ISEN better.</string>
+    <string name="administration_text_student">Here, you will find all the places in ISEN linked to the administration
+        as well as the office of the main managers.</string>
+    <string name="administration_text_teacher">Here you will find all the administration offices
+        as well as the various services that will be useful to you.</string>
+    <string name="network_text">Here you will find all the important websites, used by students and teachers.</string>
+    <string name="places_text">Here, you will find all the places that may be useful to you during your adventure at ISEN.</string>
     <string name="lunch_text">
-        Tu ne sais pas où manger ? Pas de problème, nous avons ici regroupé les endroits préférés des ISENs pour manger.</string>
-    <string name="market_text">
-        Ici, tu trouveras tous les magasins aux alentours de l\’ISEN, pratique pour savoir où faire ses courses !</string>
-    <string name="entertainment_text">
-        Ici, tu trouveras tous les endroits importants liés à la vie étudiante à l\’ISEN.</string>
-    <string name="toilets_text">
-        Besoin de passer au petit coin ? Nous avons repertorié  toutes les options qui s\'offrent à vous.</string>
-    <string name="feedback_text">
-        As-tu des suggestions pour notre application？ Des idées pour aider les nouveaux arrivants？
-        Note-les et laisse tes informations dans le but de communiquer avec nous.</string>
+You don\'t know where to eat? No problem, here we have grouped the favorite places where the ISENs usually eat.</string>
+    <string name="market_text">Here you will find all the stores around ISEN, handy for where to shop!</string>
+    <string name="entertainment_text">Here you will find all the important places related to student life at ISEN.</string>
+    <string name="toilets_text">Need to go to the toilet? We have listed all the options available for you.</string>
+    <string name="feedback_text">Do you have any suggestions for our app？ Ideas to help newcomers？
+        Write them down and leave your information in order to communicate with us.</string>
 
     <!-- FEEDBACK TOPIC -->
     <string name="feedback_field_1_text">Name :</string>
@@ -386,6 +377,9 @@
         <item>Annual interview / payslips / training (skills development plan)</item>
         <item>Website allowing you to stay up to date with ISEN news.</item>
     </string-array>
+
+    <!-- COMING SOON -->
+    <string name="comingSoonTxt">COMING SOON...</string>
 
 
 </resources>
