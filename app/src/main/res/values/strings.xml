@@ -177,6 +177,11 @@ You don\'t know where to eat? No problem, here we have grouped the favorite plac
 
     <!-- ADMIN TOPIC -->
 
+    <string name="admin_tab_1">Direction</string>
+    <string name="admin_tab_2">Cycles</string>
+    <string name="admin_tab_3">Domains</string>
+    <string name="admin_tab_4">Useful</string>
+
     <!-- ADMINISTRATION STUDENT TOPIC -->
     <string-array name="administration_student_name">
         <!-- DIRECTION -->
@@ -266,6 +271,9 @@ You don\'t know where to eat? No problem, here we have grouped the favorite plac
     </string-array>
 
 
+
+
+
     <!-- ADMINISTRATION TEACHER TOPIC -->
     <string-array name="administration_teacher_name">
         <item>Service RH</item>
@@ -300,6 +308,9 @@ You don\'t know where to eat? No problem, here we have grouped the favorite plac
         <item></item>
     </string-array>
 
+
+
+
     <!-- MARKET TOPIC -->
 
     <string-array name="market_name_list">
@@ -325,6 +336,10 @@ You don\'t know where to eat? No problem, here we have grouped the favorite plac
         <item>These two organic stores offer student prices and are both located next to ISEN.</item>
         <item>The Wazemmes market let you buy vegetables at a lower price! It takes place every Tuesday, Thursday and Sunday.</item>
     </string-array>
+
+
+
+
 
     <!-- NETWORK TOPIC -->
 
