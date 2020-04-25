@@ -1,6 +1,4 @@
-package com.example.onboardingapplication.Adapters.Pager;
-
-import android.icu.text.CaseMap;
+package com.example.onboardingapplication.Adapters.Admin;
 
 import androidx.annotation.NonNull;
 import androidx.annotation.Nullable;
@@ -11,13 +9,13 @@ import androidx.fragment.app.FragmentPagerAdapter;
 import java.util.ArrayList;
 import java.util.List;
 
-public class AdminPagerAdapter extends FragmentPagerAdapter {
+public class AdminStudentAdapter extends FragmentPagerAdapter {
 
     private final List<Fragment> listFragment = new ArrayList<>();
     private final List<String> listTitles = new ArrayList<>();
 
 
-    public AdminPagerAdapter (FragmentManager fm){
+    public AdminStudentAdapter(FragmentManager fm){
         super(fm);
     }
 
@@ -35,7 +33,7 @@ public class AdminPagerAdapter extends FragmentPagerAdapter {
     @Nullable
     @Override
     public CharSequence getPageTitle(int position) {
-        return super.getPageTitle(position);
+        return listTitles.get(position);
     }
 
     public void AddFragment(Fragment fragment, String title){

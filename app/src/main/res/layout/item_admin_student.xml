@@ -21,7 +21,7 @@
             android:background="@color/admin_item_background">
 
             <ImageView
-                android:id="@+id/admin_img"
+                android:id="@+id/admin_student_img"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="8dp"
@@ -41,7 +41,7 @@
                 android:textColor="@color/textColor"
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/admin_img"
+                app:layout_constraintStart_toEndOf="@+id/admin_student_img"
                 app:layout_constraintTop_toBottomOf="@+id/admin_student_name" />
 
             <TextView
@@ -56,14 +56,14 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/admin_img"
+                app:layout_constraintStart_toEndOf="@+id/admin_student_img"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
                 android:id="@+id/admin_student_loc"
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
-                android:layout_marginEnd="16dp"
+                android:layout_marginEnd="24dp"
                 android:layout_marginBottom="16dp"
                 android:fontFamily="@font/blogger_sans_medium"
                 android:text="Localization"

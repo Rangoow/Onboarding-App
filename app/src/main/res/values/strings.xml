@@ -182,6 +182,94 @@ You don\'t know where to eat? No problem, here we have grouped the favorite plac
     <string name="admin_tab_3">Domains</string>
     <string name="admin_tab_4">Useful</string>
 
+    <!-- NAME -->
+    <!-- DIRECTION -->
+    <string name="admin_name_1">M. OCCRE</string>
+    <string name="admin_name_2">M. BOULINGUEZ</string>
+
+    <!-- CYCLES -->
+    <string name="admin_name_3">M. DETAVERNIER</string>
+    <string name="admin_name_4">M. CHENEVERT</string>
+    <string name="admin_name_5">M. MORELLE</string>
+    <string name="admin_name_6">M. MORELLE</string>
+    <string name="admin_name_7">Mme. LITTON</string>
+    <string name="admin_name_8">INCONNU</string>
+    <!-- DOMAINS -->
+    <string name="admin_name_9">M. DELANNOY</string>
+    <string name="admin_name_10">Mme. KOKOSY</string>
+    <string name="admin_name_11">M. MORELLE</string>
+    <string name="admin_name_12">M. IHADDADENNE</string>
+    <string name="admin_name_13">M. CAPRON</string>
+    <string name="admin_name_14">M. GRANDIDIER</string>
+    <string name="admin_name_15">M. WINDAL</string>
+    <string name="admin_name_16">M. CHENEVERT</string>
+    <string name="admin_name_17">Mme. GRUMMETZ</string>
+    <string name="admin_name_18">Mme. GRUMMETZ</string>
+    <!-- USEFUL -->
+    <string name="admin_name_19">Bureau des Etudes</string>
+    <string name="admin_name_20">Mme. GRUMMETZ</string>
+    <string name="admin_name_21">Mme. LITTON</string>
+
+
+    <!-- JOB -->
+    <string name="admin_job_1">Directeur</string>
+    <string name="admin_job_2">Directeur Campus</string>
+
+    <!-- CYCLES -->
+    <string name="admin_job_3">Responsable CSI1/2</string>
+    <string name="admin_job_4">Responsable CIR1/2</string>
+    <string name="admin_job_5">Responsable CNB</string>
+    <string name="admin_job_6">Responsable CSI3/CIR3</string>
+    <string name="admin_job_7">Responsable M1</string>
+    <string name="admin_job_8">Responsable M2</string>
+    <!-- DOMAINS -->
+    <string name="admin_job_9">Responsable Dev Logiciel et Jeux Vidéos</string>
+    <string name="admin_job_10">Responsable Robotique Mobile</string>
+    <string name="admin_job_11">Responsable Objets Connectés</string>
+    <string name="admin_job_12">Responsable IA et RA</string>
+    <string name="admin_job_13">Responsable Electroniques Embarquées</string>
+    <string name="admin_job_14">Responsable Bio-nanotechs</string>
+    <string name="admin_job_15">Responsable Big Data</string>
+    <string name="admin_job_16">Responsable Cybersécurité</string>
+    <string name="admin_job_17">Responsable Ingégnieur d\'affaires</string>
+    <string name="admin_job_18">Responsable Informatiques et Finance</string>
+
+    <!-- USEFUL -->
+    <string name="admin_job_19">Toute la paperasse</string>
+    <string name="admin_job_20">Responsable FHES </string>
+    <string name="admin_job_21">Responsable Internationale</string>
+
+    <!-- LOCATION -->
+    <!-- DIRECTION -->
+    <string name="admin_loc_1">SALLE</string>
+    <string name="admin_loc_2">B300</string>
+
+    <!-- CYCLES -->
+    <string name="admin_loc_3">A606</string>
+    <string name="admin_loc_4">C664</string>
+    <string name="admin_loc_5">C461</string>
+    <string name="admin_loc_6">C461</string>
+    <string name="admin_loc_7">C857</string>
+    <string name="admin_loc_8">SALLE</string>
+    <!-- DOMAINS -->
+    <string name="admin_loc_9">C659</string>
+    <string name="admin_loc_10">C668</string>
+    <string name="admin_loc_11">C461</string>
+    <string name="admin_loc_12">C660</string>
+    <string name="admin_loc_13">C459</string>
+    <string name="admin_loc_14">C662</string>
+    <string name="admin_loc_15">C669</string>
+    <string name="admin_loc_16">C664</string>
+    <string name="admin_loc_17">A621</string>
+    <string name="admin_loc_18">A622</string>
+    <!-- USEFUL -->
+    <string name="admin_loc_19">B300</string>
+    <string name="admin_loc_20">A600</string>
+    <string name="admin_loc_21">A800</string>
+
+
+
+
     <!-- ADMINISTRATION STUDENT TOPIC -->
     <string-array name="administration_student_name">
         <!-- DIRECTION -->

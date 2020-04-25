@@ -24,7 +24,7 @@
         android:id="@+id/detailsTopicTitle"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="65dp"
+        android:layout_marginTop="75dp"
         android:fontFamily="@font/track_regular"
         android:text="@string/topic_toilets_title"
         android:textColor="@color/textColor"

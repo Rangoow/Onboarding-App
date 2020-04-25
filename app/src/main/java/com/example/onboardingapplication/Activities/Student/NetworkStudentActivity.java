@@ -15,7 +15,6 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import com.example.onboardingapplication.Activities.Both.HomeActivity;
-import com.example.onboardingapplication.Adapters.Topics.AdminStudentAdapter;
 import com.example.onboardingapplication.Adapters.Topics.NetworkAdapter;
 import com.example.onboardingapplication.R;
 

@@ -1,32 +1,35 @@
 package com.example.onboardingapplication.Activities.Student.Admin;
 
+import android.content.Intent;
 import android.os.Build;
 import android.os.Bundle;
 import android.view.View;
 import android.view.Window;
 import android.view.WindowManager;
-import android.widget.TableLayout;
+import android.widget.Button;
 
 import androidx.annotation.Nullable;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.viewpager.widget.ViewPager;
 
-import com.example.onboardingapplication.Adapters.Pager.AdminPagerAdapter;
+import com.example.onboardingapplication.Activities.Both.HomeActivity;
+import com.example.onboardingapplication.Adapters.Admin.AdminStudentAdapter;
 import com.example.onboardingapplication.R;
 import com.google.android.material.tabs.TabLayout;
 
 import java.util.Objects;
 
-public class AdminStudentActivityBis extends AppCompatActivity {
+public class AdminStudentActivity extends AppCompatActivity {
 
     private TabLayout tabLayout;
     private ViewPager viewPager;
-    private AdminPagerAdapter adapter;
+    private AdminStudentAdapter adapter;
+    Button homeBtn;
 
     @Override
     protected void onCreate(@Nullable Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_admin_student_bis);
+        setContentView(R.layout.activity_admin_student);
 
         //FULL SCREEN + BACKGROUND COLOR
         Objects.requireNonNull(getSupportActionBar()).hide();
@@ -39,9 +42,9 @@ public class AdminStudentActivityBis extends AppCompatActivity {
         View view = this.getWindow().getDecorView();
         view.setBackgroundColor(getResources().getColor(R.color.topic3Backgroundcolor));
 
-        tabLayout = (TabLayout) findViewById(R.id.adminStudentTabLayout);
-        viewPager =(ViewPager) findViewById(R.id.adminChoicePager);
-        adapter =  new AdminPagerAdapter(getSupportFragmentManager());
+        tabLayout = findViewById(R.id.adminStudentTabLayout);
+        viewPager = findViewById(R.id.adminChoicePager);
+        adapter =  new AdminStudentAdapter(getSupportFragmentManager());
 
         adapter.AddFragment(new FragmentAdminDirection(),getResources().getString(R.string.admin_tab_1));
         adapter.AddFragment(new FragmentAdminCycle(),getResources().getString(R.string.admin_tab_2));
@@ -52,5 +55,15 @@ public class AdminStudentActivityBis extends AppCompatActivity {
 
         viewPager.setAdapter(adapter);
         tabLayout.setupWithViewPager(viewPager);
+
+        //SET home Button + topic title
+        homeBtn = findViewById(R.id.detailsAdminHomebtn);
+        homeBtn.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(getApplicationContext(), HomeActivity.class);
+                startActivity(intent);
+            }
+        });
     }
 }
