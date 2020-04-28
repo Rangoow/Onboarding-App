@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ISEN Onboarding App</string>
+    <string name="app_name"> ISEN Onboarding</string>
 
     <!-- SPLASH SCREEN -->
     <string name="splash_screen">Onboarding App ISEN</string>

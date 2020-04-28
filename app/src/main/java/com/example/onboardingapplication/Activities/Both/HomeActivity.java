@@ -15,6 +15,8 @@ import com.example.onboardingapplication.Activities.Student.StudentTopicsActivit
 import com.example.onboardingapplication.Activities.Teacher.TeacherTopicsActivity;
 import com.example.onboardingapplication.R;
 
+import java.util.Objects;
+
 public class HomeActivity extends AppCompatActivity {
 
     @Override
@@ -22,6 +24,7 @@ public class HomeActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_home);
 
+        Objects.requireNonNull(getSupportActionBar()).hide();
         if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.KITKAT) {
             Window w = getWindow();
             w.setFlags(WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS, WindowManager.LayoutParams.FLAG_LAYOUT_NO_LIMITS);
