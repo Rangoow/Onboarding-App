@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
-    tools:context=".Activities.Student.AdminStudentActivity">
+    tools:context=".Activities.Teacher.AdminTeacherActivity">
 
     <androidx.cardview.widget.CardView
         android:layout_width="match_parent"
@@ -22,7 +22,7 @@
             android:background="@color/admin_item_background">
 
             <ImageView
-                android:id="@+id/admin_teacher__img"
+                android:id="@+id/admin_teacher_img"
                 android:layout_width="100dp"
                 android:layout_height="130dp"
                 android:layout_marginStart="8dp"
@@ -42,7 +42,7 @@
                 android:textColor="@color/textColor"
                 android:textSize="15sp"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/admin_teacher__img"
+                app:layout_constraintStart_toEndOf="@+id/admin_teacher_img"
                 app:layout_constraintTop_toBottomOf="@+id/admin_teacher_name" />
 
             <TextView
@@ -57,7 +57,7 @@
                 android:textSize="20sp"
                 android:textStyle="bold"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/admin_teacher__img"
+                app:layout_constraintStart_toEndOf="@+id/admin_teacher_img"
                 app:layout_constraintTop_toTopOf="parent" />
 
             <TextView
@@ -72,7 +72,7 @@
                 android:textSize="18sp"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintEnd_toEndOf="parent"
-                app:layout_constraintStart_toEndOf="@+id/admin_teacher__img"
+                app:layout_constraintStart_toEndOf="@+id/admin_teacher_img"
                 app:layout_constraintTop_toBottomOf="@+id/admin_teacher_contact"
                 app:layout_constraintVertical_bias="1.0" />
 

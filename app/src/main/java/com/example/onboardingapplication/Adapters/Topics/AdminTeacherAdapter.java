@@ -57,7 +57,7 @@ public class AdminTeacherAdapter extends RecyclerView.Adapter<AdminTeacherAdapte
             name = itemView.findViewById(R.id.admin_teacher_name);
             localization = itemView.findViewById(R.id.admin_teacher_loc);
             contact = itemView.findViewById(R.id.admin_teacher_contact);
-            adminImg = itemView.findViewById(R.id.admin_student_img);
+            adminImg = itemView.findViewById(R.id.admin_teacher_img);
 
         }
     }
