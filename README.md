@@ -16,3 +16,17 @@ __*Installation process :*__
 **5.** The application is successfully installed, you can run it from your home screen.  
   
 **6.** Have fun !  
+
+******
+__*How to use:*__  
+
+* Once in the app just select a profile between *STUDENT* and *TEACHER* by clicking on it. 
+  
+* Then you can ether use swipe (left and right) or next button to navigate between Topics.
+  
+* Click on *More Information* button if you want discover in details a Topic.  
+  
+* If you want to go back to home screen use the Top-left icon by clicking on it.  
+  
+* Enjoy ISEN Lille discovery.
+
